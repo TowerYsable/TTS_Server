@@ -1,0 +1,1501 @@
+2021-07-13 18:47:10,709 synthesize.py: INFO: 
+2021-07-13 19:00:30,467 synthesize.py: INFO: 
+2021-07-13 19:04:03,339 synthesize.py: INFO: 
+2021-07-13 19:04:03,520 text_processor.py: INFO: processed emb pinyin
+2021-07-13 19:04:18,234 synthesize.py: INFO: 
+2021-07-13 19:04:18,398 text_processor.py: INFO: processed emb pinyin
+2021-07-13 19:04:18,398 text_processor.py: INFO: processed emb graphic
+2021-07-13 19:04:18,398 text_processor.py: INFO: processed emb speaker
+2021-07-13 19:04:18,399 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 19:04:18,489 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 19:04:18,518 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 19:04:18,620 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 19:04:40,885 synthesize.py: INFO: processing 今天天气怎么样呢？
+2021-07-13 19:05:26,906 synthesize.py: INFO: 
+2021-07-13 19:05:27,080 text_processor.py: INFO: processed emb pinyin
+2021-07-13 19:05:27,081 text_processor.py: INFO: processed emb graphic
+2021-07-13 19:05:27,081 text_processor.py: INFO: processed emb speaker
+2021-07-13 19:05:27,081 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 19:05:27,083 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 19:05:27,089 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 19:05:27,156 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 19:05:30,256 synthesize.py: INFO: processing 今天天气怎么样呢
+2021-07-13 19:05:48,648 synthesize.py: INFO: 
+2021-07-13 19:05:48,817 text_processor.py: INFO: processed emb pinyin
+2021-07-13 19:05:48,818 text_processor.py: INFO: processed emb graphic
+2021-07-13 19:05:48,818 text_processor.py: INFO: processed emb speaker
+2021-07-13 19:05:48,818 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 19:05:48,820 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 19:05:48,826 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 19:05:48,887 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 19:05:51,871 synthesize.py: INFO: processing 今天天气怎么样呢
+2021-07-13 19:07:29,054 synthesize.py: INFO: 
+2021-07-13 19:07:29,223 text_processor.py: INFO: processed emb pinyin
+2021-07-13 19:07:29,224 text_processor.py: INFO: processed emb graphic
+2021-07-13 19:07:29,224 text_processor.py: INFO: processed emb speaker
+2021-07-13 19:07:29,224 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 19:07:29,226 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 19:07:29,232 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 19:07:29,294 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 19:07:32,276 synthesize.py: INFO: processing text1|sil ni3 qu4 zuo4 fan4 ba5 sil|sil 你 去 做 饭 吧 sil|0
+2021-07-13 19:07:34,648 synthesize.py: INFO: writing file to ./outputs/text1.wav
+2021-07-13 19:07:34,648 synthesize.py: INFO: processing text2|sil ni3 qu4 zuo4 fan4 ba5 sil|sil 你 去 做 饭 吧 sil|0
+2021-07-13 19:07:35,234 synthesize.py: INFO: writing file to ./outputs/text2.wav
+2021-07-13 19:07:35,235 synthesize.py: INFO: processing text3|sil you3 ge4 xiao3 hai2 jiao4 xiao3 du4 sil|sil 有　个 小 孩 叫 小 杜 sil|0
+2021-07-13 19:07:35,751 synthesize.py: INFO: writing file to ./outputs/text3.wav
+2021-07-13 19:07:35,752 synthesize.py: INFO: processing text4|sil shang4 jie1 da3 cu4 you4 mai3 bu4 sil|sil 上 街 打 醋 又 买 布 sil|0
+2021-07-13 19:07:36,297 synthesize.py: INFO: writing file to ./outputs/text4.wav
+2021-07-13 19:07:36,297 synthesize.py: INFO: processing text5|sil mai3 le5 bu4 da3 le5 cu4 sil|sil 买 了 布 打 了 醋 sil|0
+2021-07-13 19:07:36,826 synthesize.py: INFO: writing file to ./outputs/text5.wav
+2021-07-13 19:07:36,826 synthesize.py: INFO: processing text6|sil hui2 tou2 kan4 jian4 ying1 zhua1 tu4 sil|sil 回 头 看 见 鹰 抓 兔 sil|0
+2021-07-13 19:07:37,414 synthesize.py: INFO: writing file to ./outputs/text6.wav
+2021-07-13 19:07:37,414 synthesize.py: INFO: processing text7|sil fang4 xia4 bu4 ge1 xia4 cu4 sil|sil 放 下 布 搁 下 醋 sil|0
+2021-07-13 19:07:37,911 synthesize.py: INFO: writing file to ./outputs/text7.wav
+2021-07-13 19:07:37,911 synthesize.py: INFO: processing text8|sil shang4 qian2 qu4 zhui1 ying1 he2 tu4 sil|sil 上 前 去 追 鹰 和 兔 sil|0
+2021-07-13 19:07:38,470 synthesize.py: INFO: writing file to ./outputs/text8.wav
+2021-07-13 19:07:38,470 synthesize.py: INFO: processing text9|sil fei1 le5 ying1 pao3 le5 tu4 sil|sil 飞 了 鹰 跑 了 兔 sil|0
+2021-07-13 19:07:38,982 synthesize.py: INFO: writing file to ./outputs/text9.wav
+2021-07-13 19:07:38,982 synthesize.py: INFO: processing text10|sil sa3 le5 cu4 shi1 le5 bu4 sil|sil 洒 了 醋 湿 了 布 sil|0
+2021-07-13 19:07:39,528 synthesize.py: INFO: writing file to ./outputs/text10.wav
+2021-07-13 19:07:39,528 synthesize.py: INFO: processing text11|sil wei4 shi4 ying4 xin1 de5 wang3 luo4 chuan2 bo1 fang1 shi4 he2 du2 zhe3 yue4 du2 xi2 guan4 sil|sil 为 适 应 新 的 网 络 传 播 方 式 和 读 者 阅 读 习 惯 sil|0
+2021-07-13 19:07:40,174 synthesize.py: INFO: writing file to ./outputs/text11.wav
+2021-07-13 19:07:40,175 synthesize.py: INFO: processing text12|sil zhe4 ge4 xiao3 hair2 r zhen1 dong3 shir4 sil|sil 这 个 小 孩 儿 真 懂 事 sil|0
+2021-07-13 19:07:40,801 synthesize.py: INFO: writing file to ./outputs/text12.wav
+2021-07-13 19:28:40,733 synthesize.py: INFO: 
+2021-07-13 19:28:42,712 text_processor.py: INFO: processed emb pinyin
+2021-07-13 19:28:42,713 text_processor.py: INFO: processed emb graphic
+2021-07-13 19:28:42,713 text_processor.py: INFO: processed emb speaker
+2021-07-13 19:28:42,713 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 19:28:42,716 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 19:28:42,721 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 19:28:42,785 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 19:28:43,934 synthesize.py: INFO: processing text1|sil ni3 qu4 zuo4 fan4 ba5 sil|sil 你 去 做 饭 吧 sil|0
+2021-07-13 19:28:44,104 synthesize.py: INFO: writing file to ./outputs/text1.wav
+2021-07-13 19:28:44,105 synthesize.py: INFO: processing text2|sil ni3 qu4 zuo4 fan4 ba5 sil|sil 你 去 做 饭 吧 sil|0
+2021-07-13 19:28:44,241 synthesize.py: INFO: writing file to ./outputs/text2.wav
+2021-07-13 19:28:44,242 synthesize.py: INFO: processing text3|sil you3 ge4 xiao3 hai2 jiao4 xiao3 du4 sil|sil 有　个 小 孩 叫 小 杜 sil|0
+2021-07-13 19:28:44,439 synthesize.py: INFO: writing file to ./outputs/text3.wav
+2021-07-13 19:28:44,439 synthesize.py: INFO: processing text4|sil shang4 jie1 da3 cu4 you4 mai3 bu4 sil|sil 上 街 打 醋 又 买 布 sil|0
+2021-07-13 19:28:44,651 synthesize.py: INFO: writing file to ./outputs/text4.wav
+2021-07-13 19:28:44,652 synthesize.py: INFO: processing text5|sil mai3 le5 bu4 da3 le5 cu4 sil|sil 买 了 布 打 了 醋 sil|0
+2021-07-13 19:28:44,812 synthesize.py: INFO: writing file to ./outputs/text5.wav
+2021-07-13 19:28:44,812 synthesize.py: INFO: processing text6|sil hui2 tou2 kan4 jian4 ying1 zhua1 tu4 sil|sil 回 头 看 见 鹰 抓 兔 sil|0
+2021-07-13 19:28:45,029 synthesize.py: INFO: writing file to ./outputs/text6.wav
+2021-07-13 19:28:45,029 synthesize.py: INFO: processing text7|sil fang4 xia4 bu4 ge1 xia4 cu4 sil|sil 放 下 布 搁 下 醋 sil|0
+2021-07-13 19:28:45,205 synthesize.py: INFO: writing file to ./outputs/text7.wav
+2021-07-13 19:28:45,205 synthesize.py: INFO: processing text8|sil shang4 qian2 qu4 zhui1 ying1 he2 tu4 sil|sil 上 前 去 追 鹰 和 兔 sil|0
+2021-07-13 19:28:45,415 synthesize.py: INFO: writing file to ./outputs/text8.wav
+2021-07-13 19:28:45,416 synthesize.py: INFO: processing text9|sil fei1 le5 ying1 pao3 le5 tu4 sil|sil 飞 了 鹰 跑 了 兔 sil|0
+2021-07-13 19:28:45,582 synthesize.py: INFO: writing file to ./outputs/text9.wav
+2021-07-13 19:28:45,582 synthesize.py: INFO: processing text10|sil sa3 le5 cu4 shi1 le5 bu4 sil|sil 洒 了 醋 湿 了 布 sil|0
+2021-07-13 19:28:45,756 synthesize.py: INFO: writing file to ./outputs/text10.wav
+2021-07-13 19:28:45,756 synthesize.py: INFO: processing text11|sil wei4 shi4 ying4 xin1 de5 wang3 luo4 chuan2 bo1 fang1 shi4 he2 du2 zhe3 yue4 du2 xi2 guan4 sil|sil 为 适 应 新 的 网 络 传 播 方 式 和 读 者 阅 读 习 惯 sil|0
+2021-07-13 19:28:46,163 synthesize.py: INFO: writing file to ./outputs/text11.wav
+2021-07-13 19:28:46,163 synthesize.py: INFO: processing text12|sil zhe4 ge4 xiao3 hair2 r zhen1 dong3 shir4 sil|sil 这 个 小 孩 儿 真 懂 事 sil|0
+2021-07-13 19:28:46,356 synthesize.py: INFO: writing file to ./outputs/text12.wav
+2021-07-13 19:29:48,950 synthesize.py: INFO: 
+2021-07-13 19:29:49,146 text_processor.py: INFO: processed emb pinyin
+2021-07-13 19:29:49,147 text_processor.py: INFO: processed emb graphic
+2021-07-13 19:29:49,147 text_processor.py: INFO: processed emb speaker
+2021-07-13 19:29:49,147 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 19:29:49,150 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 19:29:49,156 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 19:29:49,220 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 19:29:52,256 synthesize.py: INFO: processing text1|sil ni3 qu4 zuo4 fan4 ba5 sil|sil 你 去 做 饭 吧 sil|0
+2021-07-13 19:29:52,917 synthesize.py: INFO: writing file to ./outputs/text1.wav
+2021-07-13 19:29:52,917 synthesize.py: INFO: processing text2|sil ni3 qu4 zuo4 fan4 ba5 sil|sil 你 去 做 饭 吧 sil|0
+2021-07-13 19:29:53,597 synthesize.py: INFO: writing file to ./outputs/text2.wav
+2021-07-13 19:29:53,597 synthesize.py: INFO: processing text3|sil you3 ge4 xiao3 hai2 jiao4 xiao3 du4 sil|sil 有　个 小 孩 叫 小 杜 sil|0
+2021-07-13 19:29:54,234 synthesize.py: INFO: writing file to ./outputs/text3.wav
+2021-07-13 19:29:54,234 synthesize.py: INFO: processing text4|sil shang4 jie1 da3 cu4 you4 mai3 bu4 sil|sil 上 街 打 醋 又 买 布 sil|0
+2021-07-13 19:29:54,874 synthesize.py: INFO: writing file to ./outputs/text4.wav
+2021-07-13 19:29:54,874 synthesize.py: INFO: processing text5|sil mai3 le5 bu4 da3 le5 cu4 sil|sil 买 了 布 打 了 醋 sil|0
+2021-07-13 19:29:55,488 synthesize.py: INFO: writing file to ./outputs/text5.wav
+2021-07-13 19:29:55,488 synthesize.py: INFO: processing text6|sil hui2 tou2 kan4 jian4 ying1 zhua1 tu4 sil|sil 回 头 看 见 鹰 抓 兔 sil|0
+2021-07-13 19:29:56,084 synthesize.py: INFO: writing file to ./outputs/text6.wav
+2021-07-13 19:29:56,084 synthesize.py: INFO: processing text7|sil fang4 xia4 bu4 ge1 xia4 cu4 sil|sil 放 下 布 搁 下 醋 sil|0
+2021-07-13 19:29:56,682 synthesize.py: INFO: writing file to ./outputs/text7.wav
+2021-07-13 19:29:56,683 synthesize.py: INFO: processing text8|sil shang4 qian2 qu4 zhui1 ying1 he2 tu4 sil|sil 上 前 去 追 鹰 和 兔 sil|0
+2021-07-13 19:29:57,291 synthesize.py: INFO: writing file to ./outputs/text8.wav
+2021-07-13 19:29:57,291 synthesize.py: INFO: processing text9|sil fei1 le5 ying1 pao3 le5 tu4 sil|sil 飞 了 鹰 跑 了 兔 sil|0
+2021-07-13 19:29:57,886 synthesize.py: INFO: writing file to ./outputs/text9.wav
+2021-07-13 19:29:57,886 synthesize.py: INFO: processing text10|sil sa3 le5 cu4 shi1 le5 bu4 sil|sil 洒 了 醋 湿 了 布 sil|0
+2021-07-13 19:29:58,476 synthesize.py: INFO: writing file to ./outputs/text10.wav
+2021-07-13 19:29:58,476 synthesize.py: INFO: processing text11|sil wei4 shi4 ying4 xin1 de5 wang3 luo4 chuan2 bo1 fang1 shi4 he2 du2 zhe3 yue4 du2 xi2 guan4 sil|sil 为 适 应 新 的 网 络 传 播 方 式 和 读 者 阅 读 习 惯 sil|0
+2021-07-13 19:29:59,164 synthesize.py: INFO: writing file to ./outputs/text11.wav
+2021-07-13 19:29:59,165 synthesize.py: INFO: processing text12|sil zhe4 ge4 xiao3 hair2 r zhen1 dong3 shir4 sil|sil 这 个 小 孩 儿 真 懂 事 sil|0
+2021-07-13 19:29:59,814 synthesize.py: INFO: writing file to ./outputs/text12.wav
+2021-07-13 19:35:40,528 synthesize.py: INFO: 
+2021-07-13 19:35:40,698 text_processor.py: INFO: processed emb pinyin
+2021-07-13 19:35:40,699 text_processor.py: INFO: processed emb graphic
+2021-07-13 19:35:40,699 text_processor.py: INFO: processed emb speaker
+2021-07-13 19:35:40,699 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 19:35:40,701 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 19:35:40,707 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 19:35:40,771 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 19:35:43,797 synthesize.py: INFO: processing text1|sil ni3 qu4 zuo4 fan4 ba5 sil|sil 你 去 做 饭 吧 sil|0
+2021-07-13 19:35:44,273 synthesize.py: INFO: writing file to ./outputs/text1.wav
+2021-07-13 19:35:44,274 synthesize.py: INFO: processing text2|sil ni3 qu4 zuo4 fan4 ba5 sil|sil 你 去 做 饭 吧 sil|0
+2021-07-13 19:35:44,750 synthesize.py: INFO: writing file to ./outputs/text2.wav
+2021-07-13 19:35:44,750 synthesize.py: INFO: processing text3|sil you3 ge4 xiao3 hai2 jiao4 xiao3 du4 sil|sil 有　个 小 孩 叫 小 杜 sil|0
+2021-07-13 19:35:45,260 synthesize.py: INFO: writing file to ./outputs/text3.wav
+2021-07-13 19:35:45,261 synthesize.py: INFO: processing text4|sil shang4 jie1 da3 cu4 you4 mai3 bu4 sil|sil 上 街 打 醋 又 买 布 sil|0
+2021-07-13 19:35:45,788 synthesize.py: INFO: writing file to ./outputs/text4.wav
+2021-07-13 19:35:45,789 synthesize.py: INFO: processing text5|sil mai3 le5 bu4 da3 le5 cu4 sil|sil 买 了 布 打 了 醋 sil|0
+2021-07-13 19:35:46,294 synthesize.py: INFO: writing file to ./outputs/text5.wav
+2021-07-13 19:35:46,294 synthesize.py: INFO: processing text6|sil hui2 tou2 kan4 jian4 ying1 zhua1 tu4 sil|sil 回 头 看 见 鹰 抓 兔 sil|0
+2021-07-13 19:35:46,864 synthesize.py: INFO: writing file to ./outputs/text6.wav
+2021-07-13 19:35:46,864 synthesize.py: INFO: processing text7|sil fang4 xia4 bu4 ge1 xia4 cu4 sil|sil 放 下 布 搁 下 醋 sil|0
+2021-07-13 19:35:47,388 synthesize.py: INFO: writing file to ./outputs/text7.wav
+2021-07-13 19:35:47,388 synthesize.py: INFO: processing text8|sil shang4 qian2 qu4 zhui1 ying1 he2 tu4 sil|sil 上 前 去 追 鹰 和 兔 sil|0
+2021-07-13 19:35:47,973 synthesize.py: INFO: writing file to ./outputs/text8.wav
+2021-07-13 19:35:47,974 synthesize.py: INFO: processing text9|sil fei1 le5 ying1 pao3 le5 tu4 sil|sil 飞 了 鹰 跑 了 兔 sil|0
+2021-07-13 19:35:48,507 synthesize.py: INFO: writing file to ./outputs/text9.wav
+2021-07-13 19:35:48,507 synthesize.py: INFO: processing text10|sil sa3 le5 cu4 shi1 le5 bu4 sil|sil 洒 了 醋 湿 了 布 sil|0
+2021-07-13 19:35:49,038 synthesize.py: INFO: writing file to ./outputs/text10.wav
+2021-07-13 19:35:49,039 synthesize.py: INFO: processing text11|sil wei4 shi4 ying4 xin1 de5 wang3 luo4 chuan2 bo1 fang1 shi4 he2 du2 zhe3 yue4 du2 xi2 guan4 sil|sil 为 适 应 新 的 网 络 传 播 方 式 和 读 者 阅 读 习 惯 sil|0
+2021-07-13 19:35:49,668 synthesize.py: INFO: writing file to ./outputs/text11.wav
+2021-07-13 19:35:49,668 synthesize.py: INFO: processing text12|sil zhe4 ge4 xiao3 hair2 r zhen1 dong3 shir4 sil|sil 这 个 小 孩 儿 真 懂 事 sil|0
+2021-07-13 19:35:50,213 synthesize.py: INFO: writing file to ./outputs/text12.wav
+2021-07-13 19:35:50,214 synthesize.py: INFO: processing sil 《5 xin1 wen2 lian2 bo1 》5 shi4 zhong1 guo2 zhong1 yang1 dian4 shi4 tai2 mei3 ri4 wan3 jian1 bo1 chu1 de5 yi1 dang4 xin1 wen2 jie2 mu4 sil|sil 《 新 闻 联 播 》 是 中 国 中 晚 间 播 出 的 一 档 新 闻 节 目 sil
+2021-07-13 19:36:24,895 synthesize.py: INFO: 
+2021-07-13 19:36:25,066 text_processor.py: INFO: processed emb pinyin
+2021-07-13 19:36:25,066 text_processor.py: INFO: processed emb graphic
+2021-07-13 19:36:25,066 text_processor.py: INFO: processed emb speaker
+2021-07-13 19:36:25,066 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 19:36:25,069 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 19:36:25,074 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 19:36:25,141 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 19:36:28,131 synthesize.py: INFO: processing text1|sil ni3 qu4 zuo4 fan4 ba5 sil|sil 你 去 做 饭 吧 sil|0
+2021-07-13 19:36:28,646 synthesize.py: INFO: writing file to ./outputs/text1.wav
+2021-07-13 19:36:28,646 synthesize.py: INFO: processing text2|sil ni3 qu4 zuo4 fan4 ba5 sil|sil 你 去 做 饭 吧 sil|1
+2021-07-13 19:36:36,081 synthesize.py: INFO: 
+2021-07-13 19:36:36,249 text_processor.py: INFO: processed emb pinyin
+2021-07-13 19:36:36,250 text_processor.py: INFO: processed emb graphic
+2021-07-13 19:36:36,250 text_processor.py: INFO: processed emb speaker
+2021-07-13 19:36:36,250 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 19:36:36,253 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 19:36:36,258 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 19:36:36,320 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 19:36:39,410 synthesize.py: INFO: processing text1|sil ni3 qu4 zuo4 fan4 ba5 sil|sil 你 去 做 饭 吧 sil|0
+2021-07-13 19:36:39,910 synthesize.py: INFO: writing file to ./outputs/text1.wav
+2021-07-13 19:36:39,910 synthesize.py: INFO: processing text2|sil ni3 qu4 zuo4 fan4 ba5 sil|sil 你 去 做 饭 吧 sil|0
+2021-07-13 19:36:40,414 synthesize.py: INFO: writing file to ./outputs/text2.wav
+2021-07-13 19:36:40,415 synthesize.py: INFO: processing text3|sil you3 ge4 xiao3 hai2 jiao4 xiao3 du4 sil|sil 有　个 小 孩 叫 小 杜 sil|0
+2021-07-13 19:36:40,926 synthesize.py: INFO: writing file to ./outputs/text3.wav
+2021-07-13 19:36:40,926 synthesize.py: INFO: processing text4|sil shang4 jie1 da3 cu4 you4 mai3 bu4 sil|sil 上 街 打 醋 又 买 布 sil|0
+2021-07-13 19:36:41,433 synthesize.py: INFO: writing file to ./outputs/text4.wav
+2021-07-13 19:36:41,434 synthesize.py: INFO: processing text5|sil mai3 le5 bu4 da3 le5 cu4 sil|sil 买 了 布 打 了 醋 sil|0
+2021-07-13 19:36:41,929 synthesize.py: INFO: writing file to ./outputs/text5.wav
+2021-07-13 19:36:41,929 synthesize.py: INFO: processing text6|sil hui2 tou2 kan4 jian4 ying1 zhua1 tu4 sil|sil 回 头 看 见 鹰 抓 兔 sil|0
+2021-07-13 19:36:42,509 synthesize.py: INFO: writing file to ./outputs/text6.wav
+2021-07-13 19:36:42,509 synthesize.py: INFO: processing text7|sil fang4 xia4 bu4 ge1 xia4 cu4 sil|sil 放 下 布 搁 下 醋 sil|0
+2021-07-13 19:36:43,443 synthesize.py: INFO: writing file to ./outputs/text7.wav
+2021-07-13 19:36:43,443 synthesize.py: INFO: processing text8|sil shang4 qian2 qu4 zhui1 ying1 he2 tu4 sil|sil 上 前 去 追 鹰 和 兔 sil|0
+2021-07-13 19:36:44,317 synthesize.py: INFO: writing file to ./outputs/text8.wav
+2021-07-13 19:36:44,317 synthesize.py: INFO: processing text9|sil fei1 le5 ying1 pao3 le5 tu4 sil|sil 飞 了 鹰 跑 了 兔 sil|0
+2021-07-13 19:36:45,005 synthesize.py: INFO: writing file to ./outputs/text9.wav
+2021-07-13 19:36:45,005 synthesize.py: INFO: processing text10|sil sa3 le5 cu4 shi1 le5 bu4 sil|sil 洒 了 醋 湿 了 布 sil|0
+2021-07-13 19:36:45,639 synthesize.py: INFO: writing file to ./outputs/text10.wav
+2021-07-13 19:36:45,640 synthesize.py: INFO: processing text11|sil wei4 shi4 ying4 xin1 de5 wang3 luo4 chuan2 bo1 fang1 shi4 he2 du2 zhe3 yue4 du2 xi2 guan4 sil|sil 为 适 应 新 的 网 络 传 播 方 式 和 读 者 阅 读 习 惯 sil|0
+2021-07-13 19:36:46,422 synthesize.py: INFO: writing file to ./outputs/text11.wav
+2021-07-13 19:36:46,423 synthesize.py: INFO: processing text12|sil zhe4 ge4 xiao3 hair2 r zhen1 dong3 shir4 sil|sil 这 个 小 孩 儿 真 懂 事 sil|0
+2021-07-13 19:36:47,037 synthesize.py: INFO: writing file to ./outputs/text12.wav
+2021-07-13 19:39:29,967 synthesize.py: INFO: 
+2021-07-13 19:39:30,137 text_processor.py: INFO: processed emb pinyin
+2021-07-13 19:39:30,138 text_processor.py: INFO: processed emb graphic
+2021-07-13 19:39:30,138 text_processor.py: INFO: processed emb speaker
+2021-07-13 19:39:30,138 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 19:39:30,140 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 19:39:30,146 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 19:39:30,210 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 19:39:33,205 synthesize.py: INFO: processing text1|sil ni3 qu4 zuo4 fan4 ba5 sil|sil 你 去 做 饭 吧 sil|0
+2021-07-13 19:39:33,724 synthesize.py: INFO: writing file to ./outputs/text1.wav
+2021-07-13 19:39:33,725 synthesize.py: INFO: processing text2|sil ni3 qu4 zuo4 fan4 ba5 sil|sil 你 去 做 饭 吧 sil|0
+2021-07-13 19:39:34,224 synthesize.py: INFO: writing file to ./outputs/text2.wav
+2021-07-13 19:39:34,224 synthesize.py: INFO: processing text3|sil you3 ge4 xiao3 hai2 jiao4 xiao3 du4 sil|sil 有　个 小 孩 叫 小 杜 sil|0
+2021-07-13 19:39:34,782 synthesize.py: INFO: writing file to ./outputs/text3.wav
+2021-07-13 19:39:34,782 synthesize.py: INFO: processing text4|sil shang4 jie1 da3 cu4 you4 mai3 bu4 sil|sil 上 街 打 醋 又 买 布 sil|0
+2021-07-13 19:39:35,505 synthesize.py: INFO: writing file to ./outputs/text4.wav
+2021-07-13 19:39:35,505 synthesize.py: INFO: processing text5|sil mai3 le5 bu4 da3 le5 cu4 sil|sil 买 了 布 打 了 醋 sil|0
+2021-07-13 19:39:36,192 synthesize.py: INFO: writing file to ./outputs/text5.wav
+2021-07-13 19:39:36,192 synthesize.py: INFO: processing text6|sil hui2 tou2 kan4 jian4 ying1 zhua1 tu4 sil|sil 回 头 看 见 鹰 抓 兔 sil|0
+2021-07-13 19:39:36,995 synthesize.py: INFO: writing file to ./outputs/text6.wav
+2021-07-13 19:39:36,995 synthesize.py: INFO: processing text7|sil fang4 xia4 bu4 ge1 xia4 cu4 sil|sil 放 下 布 搁 下 醋 sil|0
+2021-07-13 19:39:37,612 synthesize.py: INFO: writing file to ./outputs/text7.wav
+2021-07-13 19:39:37,612 synthesize.py: INFO: processing text8|sil shang4 qian2 qu4 zhui1 ying1 he2 tu4 sil|sil 上 前 去 追 鹰 和 兔 sil|0
+2021-07-13 19:39:38,185 synthesize.py: INFO: writing file to ./outputs/text8.wav
+2021-07-13 19:39:38,185 synthesize.py: INFO: processing text9|sil fei1 le5 ying1 pao3 le5 tu4 sil|sil 飞 了 鹰 跑 了 兔 sil|0
+2021-07-13 19:39:38,745 synthesize.py: INFO: writing file to ./outputs/text9.wav
+2021-07-13 19:39:38,745 synthesize.py: INFO: processing text10|sil sa3 le5 cu4 shi1 le5 bu4 sil|sil 洒 了 醋 湿 了 布 sil|0
+2021-07-13 19:39:39,299 synthesize.py: INFO: writing file to ./outputs/text10.wav
+2021-07-13 19:39:39,300 synthesize.py: INFO: processing text11|sil wei4 shi4 ying4 xin1 de5 wang3 luo4 chuan2 bo1 fang1 shi4 he2 du2 zhe3 yue4 du2 xi2 guan4 sil|sil 为 适 应 新 的 网 络 传 播 方 式 和 读 者 阅 读 习 惯 sil|0
+2021-07-13 19:39:39,973 synthesize.py: INFO: writing file to ./outputs/text11.wav
+2021-07-13 19:39:39,973 synthesize.py: INFO: processing text12|sil zhe4 ge4 xiao3 hair2 r zhen1 dong3 shir4 sil|sil 这 个 小 孩 儿 真 懂 事 sil|0
+2021-07-13 19:39:40,482 synthesize.py: INFO: writing file to ./outputs/text12.wav
+2021-07-13 19:40:24,271 synthesize.py: INFO: 
+2021-07-13 19:40:24,440 text_processor.py: INFO: processed emb pinyin
+2021-07-13 19:40:24,441 text_processor.py: INFO: processed emb graphic
+2021-07-13 19:40:24,441 text_processor.py: INFO: processed emb speaker
+2021-07-13 19:40:24,441 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 19:40:24,443 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 19:40:24,449 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 19:40:24,512 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 19:40:27,483 synthesize.py: INFO: processing text1|sil ni3 qu4 zuo4 fan4 ba5 sil|sil 你 去 做 饭 吧 sil|0
+2021-07-13 19:40:27,984 synthesize.py: INFO: writing file to ./outputs/text1.wav
+2021-07-13 19:40:27,984 synthesize.py: INFO: processing text2|sil ni3 qu4 zuo4 fan4 ba5 sil|sil 你 去 做 饭 吧 sil|0
+2021-07-13 19:40:28,495 synthesize.py: INFO: writing file to ./outputs/text2.wav
+2021-07-13 19:40:28,495 synthesize.py: INFO: processing text3|sil you3 ge4 xiao3 hai2 jiao4 xiao3 du4 sil|sil 有　个 小 孩 叫 小 杜 sil|0
+2021-07-13 19:40:29,040 synthesize.py: INFO: writing file to ./outputs/text3.wav
+2021-07-13 19:40:29,041 synthesize.py: INFO: processing text4|sil shang4 jie1 da3 cu4 you4 mai3 bu4 sil|sil 上 街 打 醋 又 买 布 sil|0
+2021-07-13 19:40:29,592 synthesize.py: INFO: writing file to ./outputs/text4.wav
+2021-07-13 19:40:29,593 synthesize.py: INFO: processing text5|sil mai3 le5 bu4 da3 le5 cu4 sil|sil 买 了 布 打 了 醋 sil|0
+2021-07-13 19:40:30,120 synthesize.py: INFO: writing file to ./outputs/text5.wav
+2021-07-13 19:40:30,121 synthesize.py: INFO: processing text6|sil hui2 tou2 kan4 jian4 ying1 zhua1 tu4 sil|sil 回 头 看 见 鹰 抓 兔 sil|0
+2021-07-13 19:40:30,641 synthesize.py: INFO: writing file to ./outputs/text6.wav
+2021-07-13 19:40:30,641 synthesize.py: INFO: processing text7|sil fang4 xia4 bu4 ge1 xia4 cu4 sil|sil 放 下 布 搁 下 醋 sil|0
+2021-07-13 19:40:31,158 synthesize.py: INFO: writing file to ./outputs/text7.wav
+2021-07-13 19:40:31,159 synthesize.py: INFO: processing text8|sil shang4 qian2 qu4 zhui1 ying1 he2 tu4 sil|sil 上 前 去 追 鹰 和 兔 sil|0
+2021-07-13 19:40:31,694 synthesize.py: INFO: writing file to ./outputs/text8.wav
+2021-07-13 19:40:31,694 synthesize.py: INFO: processing text9|sil fei1 le5 ying1 pao3 le5 tu4 sil|sil 飞 了 鹰 跑 了 兔 sil|0
+2021-07-13 19:40:32,220 synthesize.py: INFO: writing file to ./outputs/text9.wav
+2021-07-13 19:40:32,220 synthesize.py: INFO: processing text10|sil sa3 le5 cu4 shi1 le5 bu4 sil|sil 洒 了 醋 湿 了 布 sil|0
+2021-07-13 19:40:32,756 synthesize.py: INFO: writing file to ./outputs/text10.wav
+2021-07-13 19:40:32,757 synthesize.py: INFO: processing text11|sil wei4 shi4 ying4 xin1 de5 wang3 luo4 chuan2 bo1 fang1 shi4 he2 du2 zhe3 yue4 du2 xi2 guan4 sil|sil 为 适 应 新 的 网 络 传 播 方 式 和 读 者 阅 读 习 惯 sil|0
+2021-07-13 19:40:33,427 synthesize.py: INFO: writing file to ./outputs/text11.wav
+2021-07-13 19:40:33,427 synthesize.py: INFO: processing text12|sil zhe4 ge4 xiao3 hair2 r zhen1 dong3 shir4 sil|sil 这 个 小 孩 儿 真 懂 事 sil|0
+2021-07-13 19:40:34,037 synthesize.py: INFO: writing file to ./outputs/text12.wav
+2021-07-13 19:40:34,037 synthesize.py: INFO: processing text13|sil shi2 yan4 shi4 zai4 zheng4 qian2 fang1 sil|sil 实 验 室 在 正 前 方 sil|0
+2021-07-13 19:40:34,601 synthesize.py: INFO: writing file to ./outputs/text13.wav
+2021-07-13 19:41:04,916 synthesize.py: INFO: 
+2021-07-13 19:41:05,086 text_processor.py: INFO: processed emb pinyin
+2021-07-13 19:41:05,087 text_processor.py: INFO: processed emb graphic
+2021-07-13 19:41:05,087 text_processor.py: INFO: processed emb speaker
+2021-07-13 19:41:05,087 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 19:41:05,089 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 19:41:05,095 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 19:41:05,159 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 19:41:08,223 synthesize.py: INFO: processing text1|sil ni3 qu4 zuo4 fan4 ba5 sil|sil 你 去 做 饭 吧 sil|0
+2021-07-13 19:41:08,730 synthesize.py: INFO: writing file to ./outputs/text1.wav
+2021-07-13 19:41:08,731 synthesize.py: INFO: processing text2|sil ni3 qu4 zuo4 fan4 ba5 sil|sil 你 去 做 饭 吧 sil|0
+2021-07-13 19:41:09,277 synthesize.py: INFO: writing file to ./outputs/text2.wav
+2021-07-13 19:41:09,277 synthesize.py: INFO: processing text3|sil you3 ge4 xiao3 hai2 jiao4 xiao3 du4 sil|sil 有　个 小 孩 叫 小 杜 sil|0
+2021-07-13 19:41:09,808 synthesize.py: INFO: writing file to ./outputs/text3.wav
+2021-07-13 19:41:09,809 synthesize.py: INFO: processing text4|sil shang4 jie1 da3 cu4 you4 mai3 bu4 sil|sil 上 街 打 醋 又 买 布 sil|0
+2021-07-13 19:41:10,378 synthesize.py: INFO: writing file to ./outputs/text4.wav
+2021-07-13 19:41:10,378 synthesize.py: INFO: processing text5|sil mai3 le5 bu4 da3 le5 cu4 sil|sil 买 了 布 打 了 醋 sil|0
+2021-07-13 19:41:10,925 synthesize.py: INFO: writing file to ./outputs/text5.wav
+2021-07-13 19:41:10,925 synthesize.py: INFO: processing text6|sil hui2 tou2 kan4 jian4 ying1 zhua1 tu4 sil|sil 回 头 看 见 鹰 抓 兔 sil|0
+2021-07-13 19:41:11,480 synthesize.py: INFO: writing file to ./outputs/text6.wav
+2021-07-13 19:41:11,480 synthesize.py: INFO: processing text7|sil fang4 xia4 bu4 ge1 xia4 cu4 sil|sil 放 下 布 搁 下 醋 sil|0
+2021-07-13 19:41:12,003 synthesize.py: INFO: writing file to ./outputs/text7.wav
+2021-07-13 19:41:12,004 synthesize.py: INFO: processing text8|sil shang4 qian2 qu4 zhui1 ying1 he2 tu4 sil|sil 上 前 去 追 鹰 和 兔 sil|0
+2021-07-13 19:41:12,541 synthesize.py: INFO: writing file to ./outputs/text8.wav
+2021-07-13 19:41:12,541 synthesize.py: INFO: processing text9|sil fei1 le5 ying1 pao3 le5 tu4 sil|sil 飞 了 鹰 跑 了 兔 sil|0
+2021-07-13 19:41:13,045 synthesize.py: INFO: writing file to ./outputs/text9.wav
+2021-07-13 19:41:13,046 synthesize.py: INFO: processing text10|sil sa3 le5 cu4 shi1 le5 bu4 sil|sil 洒 了 醋 湿 了 布 sil|0
+2021-07-13 19:41:13,595 synthesize.py: INFO: writing file to ./outputs/text10.wav
+2021-07-13 19:41:13,596 synthesize.py: INFO: processing text11|sil wei4 shi4 ying4 xin1 de5 wang3 luo4 chuan2 bo1 fang1 shi4 he2 du2 zhe3 yue4 du2 xi2 guan4 sil|sil 为 适 应 新 的 网 络 传 播 方 式 和 读 者 阅 读 习 惯 sil|0
+2021-07-13 19:41:14,222 synthesize.py: INFO: writing file to ./outputs/text11.wav
+2021-07-13 19:41:14,223 synthesize.py: INFO: processing text12|sil zhe4 ge4 xiao3 hair2 r zhen1 dong3 shir4 sil|sil 这 个 小 孩 儿 真 懂 事 sil|0
+2021-07-13 19:41:14,783 synthesize.py: INFO: writing file to ./outputs/text12.wav
+2021-07-13 19:41:14,783 synthesize.py: INFO: processing text12|sil shi2 yan4 shi4 zai4 zheng4 qian2 fang1 sil|sil 实 验 室 在 正 前 方 sil|0
+2021-07-13 19:41:15,361 synthesize.py: INFO: writing file to ./outputs/text12.wav
+2021-07-13 19:41:53,618 synthesize.py: INFO: 
+2021-07-13 19:41:53,787 text_processor.py: INFO: processed emb pinyin
+2021-07-13 19:41:53,788 text_processor.py: INFO: processed emb graphic
+2021-07-13 19:41:53,788 text_processor.py: INFO: processed emb speaker
+2021-07-13 19:41:53,788 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 19:41:53,791 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 19:41:53,796 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 19:41:53,858 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 19:41:56,872 synthesize.py: INFO: processing text12|sil shi2 yan4 shi4 zai4 zheng4 qian2 fang1 sil|sil 实 验 室 在 正 前 方 sil|0
+2021-07-13 19:41:57,405 synthesize.py: INFO: writing file to ./outputs/text12.wav
+2021-07-13 19:42:02,356 synthesize.py: INFO: 
+2021-07-13 19:42:02,532 text_processor.py: INFO: processed emb pinyin
+2021-07-13 19:42:02,532 text_processor.py: INFO: processed emb graphic
+2021-07-13 19:42:02,533 text_processor.py: INFO: processed emb speaker
+2021-07-13 19:42:02,533 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 19:42:02,535 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 19:42:02,540 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 19:42:02,618 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 19:42:05,675 synthesize.py: INFO: processing test|sil shi2 yan4 shi4 zai4 zheng4 qian2 fang1 sil|sil 实 验 室 在 正 前 方 sil|0
+2021-07-13 19:42:06,266 synthesize.py: INFO: writing file to ./outputs/test.wav
+2021-07-13 19:59:52,788 sysnthesize_server.py: INFO: 
+2021-07-13 19:59:52,788 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 19:59:52,792 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 19:59:52,799 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 19:59:52,872 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:00:12,368 sysnthesize_server.py: INFO: 
+2021-07-13 20:00:12,369 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:00:12,372 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:00:12,379 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:00:12,453 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:00:15,631 sysnthesize_server.py: INFO: 
+2021-07-13 20:00:15,632 text_processor.py: INFO: processed emb pinyin
+2021-07-13 20:00:15,632 text_processor.py: INFO: processed emb graphic
+2021-07-13 20:00:15,632 text_processor.py: INFO: processed emb speaker
+2021-07-13 20:00:15,632 sysnthesize_server.py: INFO: processing test|sil shi2 yan4 shi4 zai4 zheng4 qian2 fang1 sil|sil 实 验 室 在 正 前 方 sil|0
+2021-07-13 20:00:38,256 sysnthesize_server.py: INFO: 
+2021-07-13 20:00:38,256 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:00:38,260 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:00:38,267 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:00:38,339 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:00:41,465 sysnthesize_server.py: INFO: 
+2021-07-13 20:00:41,465 text_processor.py: INFO: processed emb pinyin
+2021-07-13 20:00:41,466 text_processor.py: INFO: processed emb graphic
+2021-07-13 20:00:41,466 text_processor.py: INFO: processed emb speaker
+2021-07-13 20:00:41,466 sysnthesize_server.py: INFO: processing test|sil shi2 yan4 shi4 zai4 zheng4 qian2 fang1 sil|sil 实 验 室 在 正 前 方 sil|0
+2021-07-13 20:00:42,045 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-13 20:05:17,908 sysnthesize_server.py: INFO: 
+2021-07-13 20:05:17,909 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:05:17,912 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:05:17,919 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:05:17,991 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:05:21,273 sysnthesize_server.py: INFO: 
+2021-07-13 20:05:21,273 text_processor.py: INFO: processed emb pinyin
+2021-07-13 20:05:21,274 text_processor.py: INFO: processed emb graphic
+2021-07-13 20:05:21,274 text_processor.py: INFO: processed emb speaker
+2021-07-13 20:05:21,274 sysnthesize_server.py: INFO: processing test|sil shi2 yan4 shi4 zai4 zheng4 qian2 fang1 sil|sil 实 验 室 在 正 前 方 sil|0
+2021-07-13 20:05:21,840 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-13 20:05:21,841 sysnthesize_server.py: INFO: processing test|sil shi2 yan4 shi4 zai4 zheng4 qian2 fang1 sil|sil 实 验 室 在 正 前 方 sil|0
+2021-07-13 20:05:22,410 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-13 20:05:22,411 sysnthesize_server.py: INFO: processing test|sil shi2 yan4 shi4 zai4 zheng4 qian2 fang1 rang4 wo3 dai4 ni3 qu4 ba5 sil|sil 实 验 室 在 正 前 方 让 我 带 你 去 吧 sil|0
+2021-07-13 20:05:23,017 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-13 20:06:16,336 sysnthesize_server.py: INFO: 
+2021-07-13 20:06:16,336 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:06:16,340 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:06:16,347 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:06:16,419 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:06:19,590 sysnthesize_server.py: INFO: 
+2021-07-13 20:06:19,590 text_processor.py: INFO: processed emb pinyin
+2021-07-13 20:06:19,591 text_processor.py: INFO: processed emb graphic
+2021-07-13 20:06:19,591 text_processor.py: INFO: processed emb speaker
+2021-07-13 20:06:19,591 sysnthesize_server.py: INFO: processing test|sil shi2 yan4 shi4 zai4 zheng4 qian2 fang1 sil|sil 实 验 室 在 正 前 方 sil|0
+2021-07-13 20:06:20,316 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-13 20:06:20,316 sysnthesize_server.py: INFO: processing test|sil rang4 wo3 dai4 ni3 qu4 ba5 sil|sil 让 我 带 你 去 吧 sil|0
+2021-07-13 20:06:21,066 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-13 20:06:38,022 sysnthesize_server.py: INFO: 
+2021-07-13 20:06:38,022 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:06:38,025 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:06:38,032 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:06:38,104 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:06:41,291 sysnthesize_server.py: INFO: 
+2021-07-13 20:06:41,291 text_processor.py: INFO: processed emb pinyin
+2021-07-13 20:06:41,292 text_processor.py: INFO: processed emb graphic
+2021-07-13 20:06:41,292 text_processor.py: INFO: processed emb speaker
+2021-07-13 20:06:41,292 sysnthesize_server.py: INFO: processing test|sil shi2 yan4 shi4 zai4 zheng4 qian2 fang1 sil|sil 实 验 室 在 正 前 方 sil|0
+2021-07-13 20:06:41,793 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-13 20:12:06,413 sysnthesize_server.py: INFO: 
+2021-07-13 20:12:06,414 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:12:06,417 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:12:06,424 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:12:06,498 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:12:09,645 sysnthesize_server.py: INFO: 
+2021-07-13 20:12:09,645 text_processor.py: INFO: processed emb pinyin
+2021-07-13 20:12:09,646 text_processor.py: INFO: processed emb graphic
+2021-07-13 20:12:09,646 text_processor.py: INFO: processed emb speaker
+2021-07-13 20:12:09,646 sysnthesize_server.py: INFO: processing test|sil shi2 yan4 shi4 zai4 zheng4 qian2 fang1 rang4 wo3 dai4 ni3 qu4 ba5 sil|sil 实 验 室 在 正 前 方 ，让 我 带 你 去 吧 sil|0
+2021-07-13 20:12:15,635 sysnthesize_server.py: INFO: 
+2021-07-13 20:12:15,635 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:12:15,639 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:12:15,647 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:12:15,722 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:12:18,960 sysnthesize_server.py: INFO: 
+2021-07-13 20:12:18,961 text_processor.py: INFO: processed emb pinyin
+2021-07-13 20:12:18,961 text_processor.py: INFO: processed emb graphic
+2021-07-13 20:12:18,961 text_processor.py: INFO: processed emb speaker
+2021-07-13 20:12:18,961 sysnthesize_server.py: INFO: processing test|sil shi2 yan4 shi4 zai4 zheng4 qian2 fang1 rang4 wo3 dai4 ni3 qu4 ba5 sil|sil 实 验 室 在 正 前 方 让 我 带 你 去 吧 sil|0
+2021-07-13 20:12:19,536 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-13 20:16:34,680 sysnthesize_server.py: INFO: 
+2021-07-13 20:16:34,680 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:16:34,683 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:16:34,692 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:16:34,767 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:16:38,403 sysnthesize_server.py: INFO: 
+2021-07-13 20:16:38,403 text_processor.py: INFO: processed emb pinyin
+2021-07-13 20:16:38,404 text_processor.py: INFO: processed emb graphic
+2021-07-13 20:16:38,404 text_processor.py: INFO: processed emb speaker
+2021-07-13 20:16:38,404 sysnthesize_server.py: INFO: processing test|sil shi2 yan4 shi4 zai4 zheng4 qian2 fang1 rang4 wo3 dai4 ni3 qu4 ba5 sil|sil 实 验 室 在 正 前 方 让 我 带 你 去 吧 sil|0
+2021-07-13 20:16:38,981 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-13 20:17:05,200 sysnthesize_server.py: INFO: 
+2021-07-13 20:17:05,201 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:17:05,204 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:17:05,211 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:17:05,283 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:17:08,908 sysnthesize_server.py: INFO: 
+2021-07-13 20:17:08,908 text_processor.py: INFO: processed emb pinyin
+2021-07-13 20:17:08,909 text_processor.py: INFO: processed emb graphic
+2021-07-13 20:17:08,909 text_processor.py: INFO: processed emb speaker
+2021-07-13 20:17:08,909 sysnthesize_server.py: INFO: processing test|sil shi2 yan4 shi4 zai4 zheng4 qian2 fang1 rang4 wo3 dai4 ni3 qu4 ba5 sil|sil 实 验 室 在 正 前 方 让 我 带 你 去 吧 sil|0
+2021-07-13 20:17:09,484 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-13 20:18:44,474 sysnthesize_server.py: INFO: 
+2021-07-13 20:18:44,474 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:18:44,478 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:18:44,485 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:18:44,557 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:21:24,445 sysnthesize_server.py: INFO: 
+2021-07-13 20:21:24,445 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:21:24,449 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:21:24,456 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:21:24,531 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:23:18,937 sysnthesize_server.py: INFO: 
+2021-07-13 20:23:18,937 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:23:18,941 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:23:18,948 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:23:19,020 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:24:12,580 sysnthesize_server.py: INFO: 
+2021-07-13 20:24:12,580 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:24:12,583 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:24:12,590 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:24:12,662 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:25:38,251 sysnthesize_server.py: INFO: 
+2021-07-13 20:25:38,251 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:25:38,255 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:25:38,262 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:25:38,334 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:26:36,478 sysnthesize_server.py: INFO: 
+2021-07-13 20:26:36,478 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:26:36,482 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:26:36,489 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:26:36,563 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:33:32,090 sysnthesize_server.py: INFO: 
+2021-07-13 20:33:32,090 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:33:32,094 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:33:32,101 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:33:32,175 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:34:07,294 sysnthesize_server.py: INFO: 
+2021-07-13 20:34:07,294 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:34:07,298 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:34:07,306 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:34:07,385 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:34:16,110 sysnthesize_server.py: INFO: 
+2021-07-13 20:34:16,111 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:34:16,114 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:34:16,121 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:34:16,200 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:36:33,415 sysnthesize_server.py: INFO: 
+2021-07-13 20:36:33,416 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:36:33,419 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:36:33,426 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:36:33,497 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:36:45,521 sysnthesize_server.py: INFO: 
+2021-07-13 20:36:45,521 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:36:45,525 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:36:45,532 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:36:45,603 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:37:18,674 sysnthesize_server.py: INFO: 
+2021-07-13 20:37:18,675 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:37:18,678 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:37:18,685 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:37:18,757 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:38:31,190 sysnthesize_server.py: INFO: 
+2021-07-13 20:38:31,191 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:38:31,194 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:38:31,201 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:38:31,275 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:38:48,903 sysnthesize_server.py: INFO: 
+2021-07-13 20:38:48,904 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:38:48,907 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:38:48,914 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:38:48,987 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:38:52,621 sysnthesize_server.py: INFO: 
+2021-07-13 20:38:52,621 text_processor.py: INFO: processed emb pinyin
+2021-07-13 20:38:52,622 text_processor.py: INFO: processed emb graphic
+2021-07-13 20:38:52,622 text_processor.py: INFO: processed emb speaker
+2021-07-13 20:38:52,622 sysnthesize_server.py: INFO: processing test|sil shi2 yan4 shi4 zai4 zheng4 qian2 fang1 sil|sil 实 验 室 在 正 前 方 sil|0
+2021-07-13 20:38:53,144 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-13 20:38:53,145 sysnthesize_server.py: INFO: processing test|sil rang4 wo3 dai4 ni3 qu4 ba5 sil|sil 让 我 带 你 去 吧 sil|0
+2021-07-13 20:38:53,673 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-13 20:42:04,654 sysnthesize_server.py: INFO: 
+2021-07-13 20:42:04,655 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:42:04,658 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:42:04,665 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:42:04,737 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:42:07,841 sysnthesize_server.py: INFO: 
+2021-07-13 20:42:07,841 text_processor.py: INFO: processed emb pinyin
+2021-07-13 20:42:07,842 text_processor.py: INFO: processed emb graphic
+2021-07-13 20:42:07,842 text_processor.py: INFO: processed emb speaker
+2021-07-13 20:42:08,351 sysnthesize_server.py: INFO: processing test|sil shi2 yan4 shi4 zai4 zheng4 qian2 fang1 sil|sil 实 验 室 在 正 前 方 sil|0
+2021-07-13 20:42:08,900 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-13 20:42:08,901 sysnthesize_server.py: INFO: processing test|sil rang4 wo3 dai4 ni3 qu4 ba5 sil|sil 让 我 带 你 去 吧 sil|0
+2021-07-13 20:42:09,424 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-13 20:48:30,573 sysnthesize_server.py: INFO: 
+2021-07-13 20:48:30,573 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 20:48:30,577 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 20:48:30,584 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 20:48:30,655 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 20:48:33,981 sysnthesize_server.py: INFO: 
+2021-07-13 20:48:33,981 text_processor.py: INFO: processed emb pinyin
+2021-07-13 20:48:33,982 text_processor.py: INFO: processed emb graphic
+2021-07-13 20:48:33,982 text_processor.py: INFO: processed emb speaker
+2021-07-13 20:48:34,492 sysnthesize_server.py: INFO: processing test|sil shi2 yan4 shi4 zai4 zheng4 qian2 fang1 sil|sil 实 验 室 在 正 前 方 sil|0
+2021-07-13 20:48:35,110 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-13 20:48:35,111 sysnthesize_server.py: INFO: processing test|sil rang4 wo3 dai4 ni3 qu4 ba5 sil|sil 让 我 带 你 去 吧 sil|0
+2021-07-13 20:48:35,626 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-13 20:48:56,227 sysnthesize_server.py: INFO: 
+2021-07-13 20:48:56,227 text_processor.py: INFO: processed emb pinyin
+2021-07-13 20:48:56,228 text_processor.py: INFO: processed emb graphic
+2021-07-13 20:48:56,228 text_processor.py: INFO: processed emb speaker
+2021-07-13 20:48:56,232 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 ne5 sil|sil 今 天 天 气 怎 么 样 呢 sil|0
+2021-07-13 20:48:56,844 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-13 21:37:40,802 sysnthesize_server.py: INFO: 
+2021-07-13 21:37:40,806 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 21:37:40,827 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 21:37:40,835 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 21:37:40,916 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 21:37:47,678 sysnthesize_server.py: INFO: 
+2021-07-13 21:37:47,678 text_processor.py: INFO: processed emb pinyin
+2021-07-13 21:37:47,679 text_processor.py: INFO: processed emb graphic
+2021-07-13 21:37:47,679 text_processor.py: INFO: processed emb speaker
+2021-07-13 21:37:48,242 sysnthesize_server.py: INFO: processing test|sil shi2 yan4 shi4 zai4 zheng4 qian2 fang1 sil|sil 实 验 室 在 正 前 方 sil|0
+2021-07-13 21:37:48,933 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-13 21:37:48,934 sysnthesize_server.py: INFO: processing test|sil rang4 wo3 dai4 ni3 qu4 ba5 sil|sil 让 我 带 你 去 吧 sil|0
+2021-07-13 21:37:49,446 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-13 22:00:52,018 sysnthesize_server.py: INFO: 
+2021-07-13 22:00:52,018 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-13 22:00:52,022 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-13 22:00:52,028 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-13 22:00:52,101 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-13 22:00:55,287 sysnthesize_server.py: INFO: 
+2021-07-13 22:00:55,288 text_processor.py: INFO: processed emb pinyin
+2021-07-13 22:00:55,288 text_processor.py: INFO: processed emb graphic
+2021-07-13 22:00:55,289 text_processor.py: INFO: processed emb speaker
+2021-07-13 22:00:55,806 sysnthesize_server.py: INFO: processing test|sil shi2 yan4 shi4 zai4 zheng4 qian2 fang1 sil|sil 实 验 室 在 正 前 方 sil|0
+2021-07-13 22:00:56,402 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-13 22:00:56,403 sysnthesize_server.py: INFO: processing test|sil rang4 wo3 dai4 ni3 qu4 ba5 sil|sil 让 我 带 你 去 吧 sil|0
+2021-07-13 22:00:56,909 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-13 22:01:36,029 sysnthesize_server.py: INFO: 
+2021-07-13 22:01:36,030 text_processor.py: INFO: processed emb pinyin
+2021-07-13 22:01:36,031 text_processor.py: INFO: processed emb graphic
+2021-07-13 22:01:36,031 text_processor.py: INFO: processed emb speaker
+2021-07-13 22:01:36,035 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-13 22:01:36,624 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:27:22,462 sysnthesize_server.py: INFO: 
+2021-07-14 09:27:22,485 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:27:22,491 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:27:22,491 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:27:22,495 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 zen3 me5 sil|sil 今 天 天 怎 么 sil|0
+2021-07-14 09:27:23,148 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:28:05,532 sysnthesize_server.py: INFO: 
+2021-07-14 09:28:05,532 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-14 09:28:05,555 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-14 09:28:05,563 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-14 09:28:05,635 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-14 09:28:10,203 sysnthesize_server.py: INFO: 
+2021-07-14 09:28:10,204 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:28:10,204 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:28:10,204 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:28:10,711 sysnthesize_server.py: INFO: processing test|sil shi2 yan4 shi4 zai4 zheng4 qian2 fang1 sil|sil 实 验 室 在 正 前 方 sil|0
+2021-07-14 09:28:11,254 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:28:11,255 sysnthesize_server.py: INFO: processing test|sil rang4 wo3 dai4 ni3 qu4 ba5 sil|sil 让 我 带 你 去 吧 sil|0
+2021-07-14 09:28:11,828 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:30:34,690 sysnthesize_server.py: INFO: 
+2021-07-14 09:30:34,690 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-14 09:30:34,694 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-14 09:30:34,701 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-14 09:30:34,773 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-14 09:30:37,983 sysnthesize_server.py: INFO: 
+2021-07-14 09:30:37,984 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:30:37,984 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:30:37,984 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:30:38,498 sysnthesize_server.py: INFO: processing test|sil shi2 yan4 shi4 zai4 zheng4 qian2 fang1 sil|sil 实 验 室 在 正 前 方 sil|0
+2021-07-14 09:30:39,054 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:30:39,054 sysnthesize_server.py: INFO: processing test|sil rang4 wo3 dai4 ni3 qu4 ba5 sil|sil 让 我 带 你 去 吧 sil|0
+2021-07-14 09:30:39,601 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:31:00,832 sysnthesize_server.py: INFO: 
+2021-07-14 09:31:00,833 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-14 09:31:00,836 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-14 09:31:00,843 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-14 09:31:00,918 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-14 09:31:17,646 sysnthesize_server.py: INFO: 
+2021-07-14 09:31:17,647 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:31:17,648 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:31:17,648 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:31:18,183 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 09:31:18,859 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:31:24,937 sysnthesize_server.py: INFO: 
+2021-07-14 09:31:24,938 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:31:24,939 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:31:24,939 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:31:24,942 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 09:31:25,634 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:33:16,878 sysnthesize_server.py: INFO: 
+2021-07-14 09:33:16,878 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:33:16,879 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:33:16,879 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:33:16,882 sysnthesize_server.py: INFO: processing test|sil "5 jin1 tian1 tian1 qi4 zen3 me5 yang4 "5 sil|sil " 今 天 天 气 怎 么 样 " sil|0
+2021-07-14 09:33:54,363 sysnthesize_server.py: INFO: 
+2021-07-14 09:33:54,363 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:33:54,364 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:33:54,364 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:33:54,367 sysnthesize_server.py: INFO: processing test|sil "5 jin1 tian1 tian1 qi4 zen3 me5 yang4 "5 sil|sil " 今 天 天 气 怎 么 样 " sil|0
+2021-07-14 09:34:16,223 sysnthesize_server.py: INFO: 
+2021-07-14 09:34:16,223 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:34:16,224 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:34:16,224 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:34:16,228 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 09:34:16,828 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:36:47,794 sysnthesize_server.py: INFO: 
+2021-07-14 09:36:47,794 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-14 09:36:47,798 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-14 09:36:47,805 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-14 09:36:47,878 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-14 09:36:54,994 sysnthesize_server.py: INFO: 
+2021-07-14 09:36:54,995 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:36:54,996 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:36:54,996 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:36:55,679 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 09:36:56,242 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:43:50,159 sysnthesize_server.py: INFO: 
+2021-07-14 09:43:50,189 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-14 09:43:50,211 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-14 09:43:50,219 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-14 09:43:50,293 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-14 09:44:03,524 sysnthesize_server.py: INFO: 
+2021-07-14 09:44:03,525 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:44:03,526 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:44:03,526 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:44:04,641 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 09:44:05,222 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:44:07,271 sysnthesize_server.py: INFO: 
+2021-07-14 09:44:07,272 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:44:07,272 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:44:07,273 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:44:07,276 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 09:44:07,785 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:44:15,493 sysnthesize_server.py: INFO: 
+2021-07-14 09:44:15,493 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:44:15,494 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:44:15,494 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:44:15,498 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 09:44:16,305 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:44:44,812 sysnthesize_server.py: INFO: 
+2021-07-14 09:44:44,812 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-14 09:44:44,816 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-14 09:44:44,823 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-14 09:44:44,898 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-14 09:44:56,422 sysnthesize_server.py: INFO: 
+2021-07-14 09:44:56,422 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:44:56,424 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:44:56,424 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:44:57,095 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 09:44:57,641 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:45:38,089 sysnthesize_server.py: INFO: 
+2021-07-14 09:45:38,090 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-14 09:45:38,094 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-14 09:45:38,101 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-14 09:45:38,205 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-14 09:45:44,067 sysnthesize_server.py: INFO: 
+2021-07-14 09:45:44,068 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:45:44,069 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:45:44,069 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:45:44,746 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 09:45:45,283 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:46:06,640 sysnthesize_server.py: INFO: 
+2021-07-14 09:46:06,641 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-14 09:46:06,644 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-14 09:46:06,651 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-14 09:46:06,724 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-14 09:46:19,549 sysnthesize_server.py: INFO: 
+2021-07-14 09:46:19,550 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:46:19,551 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:46:19,551 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:46:20,226 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 09:46:20,800 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:47:01,092 sysnthesize_server.py: INFO: 
+2021-07-14 09:47:01,092 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-14 09:47:01,095 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-14 09:47:01,102 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-14 09:47:01,176 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-14 09:47:11,199 sysnthesize_server.py: INFO: 
+2021-07-14 09:47:11,200 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:47:11,201 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:47:11,201 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:47:11,880 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 09:47:12,588 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:48:03,820 sysnthesize_server.py: INFO: 
+2021-07-14 09:48:03,821 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:48:03,822 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:48:03,822 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:48:03,825 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 09:48:04,380 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:48:37,250 sysnthesize_server.py: INFO: 
+2021-07-14 09:48:37,250 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:48:37,251 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:48:37,251 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:48:37,254 sysnthesize_server.py: INFO: processing test|sil "5 jin1 tian1 tian1 qi4 zen3 me5 yang4 "5 sil|sil " 今 天 天 气 怎 么 样 " sil|0
+2021-07-14 09:48:54,744 sysnthesize_server.py: INFO: 
+2021-07-14 09:48:54,744 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:48:54,745 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:48:54,745 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:48:54,748 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 09:48:55,333 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:48:55,373 sysnthesize_server.py: INFO: 
+2021-07-14 09:48:55,373 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:48:55,374 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:48:55,374 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:48:55,377 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 09:48:56,064 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:49:06,436 sysnthesize_server.py: INFO: 
+2021-07-14 09:49:06,436 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-14 09:49:06,440 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-14 09:49:06,447 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-14 09:49:06,520 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-14 09:50:12,006 sysnthesize_server.py: INFO: 
+2021-07-14 09:50:12,006 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:50:12,008 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:50:12,008 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:50:12,665 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 09:50:13,179 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:50:27,562 sysnthesize_server.py: INFO: 
+2021-07-14 09:50:27,562 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:50:27,563 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:50:27,563 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:50:27,567 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 zi5 sil|sil 今 天 天 气 怎 么 样 子 sil|0
+2021-07-14 09:50:28,091 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:50:53,826 sysnthesize_server.py: INFO: 
+2021-07-14 09:50:53,826 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:50:53,827 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:50:53,827 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:50:53,830 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 09:50:54,403 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 09:51:41,538 sysnthesize_server.py: INFO: 
+2021-07-14 09:51:41,538 text_processor.py: INFO: processed emb pinyin
+2021-07-14 09:51:41,540 text_processor.py: INFO: processed emb graphic
+2021-07-14 09:51:41,540 text_processor.py: INFO: processed emb speaker
+2021-07-14 09:51:41,543 sysnthesize_server.py: INFO: processing test|sil zhe4 li3 shi4 guang3 dong1 gong1 ye4 da4 xue2 sil|sil 这 里 是 广 东 工 业 大 学 sil|0
+2021-07-14 09:51:42,090 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 10:15:23,098 sysnthesize_server.py: INFO: 
+2021-07-14 10:15:23,099 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-14 10:15:23,102 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-14 10:15:23,109 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-14 10:15:23,181 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-14 10:15:26,671 sysnthesize_server.py: INFO: 
+2021-07-14 10:15:26,672 text_processor.py: INFO: processed emb pinyin
+2021-07-14 10:15:26,672 text_processor.py: INFO: processed emb graphic
+2021-07-14 10:15:26,672 text_processor.py: INFO: processed emb speaker
+2021-07-14 10:15:27,200 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 10:15:27,830 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 10:15:28,039 sysnthesize_server.py: INFO: 
+2021-07-14 10:15:28,040 text_processor.py: INFO: processed emb pinyin
+2021-07-14 10:15:28,041 text_processor.py: INFO: processed emb graphic
+2021-07-14 10:15:28,041 text_processor.py: INFO: processed emb speaker
+2021-07-14 10:15:28,046 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 10:15:28,830 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 10:15:28,875 sysnthesize_server.py: INFO: 
+2021-07-14 10:15:28,875 text_processor.py: INFO: processed emb pinyin
+2021-07-14 10:15:28,876 text_processor.py: INFO: processed emb graphic
+2021-07-14 10:15:28,876 text_processor.py: INFO: processed emb speaker
+2021-07-14 10:15:28,879 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 10:15:29,630 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 10:15:29,674 sysnthesize_server.py: INFO: 
+2021-07-14 10:15:29,674 text_processor.py: INFO: processed emb pinyin
+2021-07-14 10:15:29,675 text_processor.py: INFO: processed emb graphic
+2021-07-14 10:15:29,675 text_processor.py: INFO: processed emb speaker
+2021-07-14 10:15:29,677 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 10:15:30,340 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 10:17:14,177 sysnthesize_server.py: INFO: 
+2021-07-14 10:17:14,178 text_processor.py: INFO: processed emb pinyin
+2021-07-14 10:17:14,179 text_processor.py: INFO: processed emb graphic
+2021-07-14 10:17:14,179 text_processor.py: INFO: processed emb speaker
+2021-07-14 10:17:14,182 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 10:17:14,724 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 10:17:17,397 sysnthesize_server.py: INFO: 
+2021-07-14 10:17:17,397 text_processor.py: INFO: processed emb pinyin
+2021-07-14 10:17:17,398 text_processor.py: INFO: processed emb graphic
+2021-07-14 10:17:17,398 text_processor.py: INFO: processed emb speaker
+2021-07-14 10:17:17,400 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 10:17:18,127 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 10:17:18,171 sysnthesize_server.py: INFO: 
+2021-07-14 10:17:18,171 text_processor.py: INFO: processed emb pinyin
+2021-07-14 10:17:18,172 text_processor.py: INFO: processed emb graphic
+2021-07-14 10:17:18,172 text_processor.py: INFO: processed emb speaker
+2021-07-14 10:17:18,174 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 10:17:18,951 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 10:17:18,999 sysnthesize_server.py: INFO: 
+2021-07-14 10:17:18,999 text_processor.py: INFO: processed emb pinyin
+2021-07-14 10:17:19,000 text_processor.py: INFO: processed emb graphic
+2021-07-14 10:17:19,000 text_processor.py: INFO: processed emb speaker
+2021-07-14 10:17:19,003 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-14 10:17:19,787 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 14:11:18,638 sysnthesize_server.py: INFO: 
+2021-07-14 14:11:18,638 text_processor.py: INFO: processed emb pinyin
+2021-07-14 14:11:18,640 text_processor.py: INFO: processed emb graphic
+2021-07-14 14:11:18,640 text_processor.py: INFO: processed emb speaker
+2021-07-14 14:11:18,643 sysnthesize_server.py: INFO: processing test|sil qing2 jian3 cha2 nin2 de5 wang3 luo4 sil|sil 请 检 查 您 的 网 络 sil|0
+2021-07-14 14:11:19,302 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 14:18:13,729 sysnthesize_server.py: INFO: 
+2021-07-14 14:18:13,730 text_processor.py: INFO: processed emb pinyin
+2021-07-14 14:18:13,730 text_processor.py: INFO: processed emb graphic
+2021-07-14 14:18:13,731 text_processor.py: INFO: processed emb speaker
+2021-07-14 14:18:13,734 sysnthesize_server.py: INFO: processing test|sil qing2 jian3 cha2 nin2 de5 wang3 luo4 sil|sil 请 检 查 您 的 网 络 sil|0
+2021-07-14 14:18:14,358 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 14:20:47,048 sysnthesize_server.py: INFO: 
+2021-07-14 14:20:47,048 text_processor.py: INFO: processed emb pinyin
+2021-07-14 14:20:47,049 text_processor.py: INFO: processed emb graphic
+2021-07-14 14:20:47,049 text_processor.py: INFO: processed emb speaker
+2021-07-14 14:20:47,053 sysnthesize_server.py: INFO: processing test|sil qing2 jian3 cha2 nin2 de5 wang3 luo4 sil|sil 请 检 查 您 的 网 络 sil|0
+2021-07-14 14:20:47,625 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 14:21:37,320 sysnthesize_server.py: INFO: 
+2021-07-14 14:21:37,320 text_processor.py: INFO: processed emb pinyin
+2021-07-14 14:21:37,321 text_processor.py: INFO: processed emb graphic
+2021-07-14 14:21:37,322 text_processor.py: INFO: processed emb speaker
+2021-07-14 14:21:37,326 sysnthesize_server.py: INFO: processing test|sil qing2 jian3 cha2 nin2 de5 wang3 luo4 sil|sil 请 检 查 您 的 网 络 sil|0
+2021-07-14 14:21:37,972 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-14 14:27:17,473 sysnthesize_server.py: INFO: 
+2021-07-14 14:27:17,473 text_processor.py: INFO: processed emb pinyin
+2021-07-14 14:27:17,474 text_processor.py: INFO: processed emb graphic
+2021-07-14 14:27:17,474 text_processor.py: INFO: processed emb speaker
+2021-07-14 14:27:17,478 sysnthesize_server.py: INFO: processing test|sil qing2 jian3 cha2 nin2 de5 wang3 luo4 sil|sil 请 检 查 您 的 网 络 sil|0
+2021-07-14 14:27:18,114 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-18 21:52:53,423 sysnthesize_server.py: INFO: 
+2021-07-18 21:52:53,478 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-18 21:52:54,187 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-18 21:52:54,233 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-18 21:52:54,495 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-18 22:00:31,787 sysnthesize_server.py: INFO: 
+2021-07-18 22:00:31,818 text_processor.py: INFO: processed emb pinyin
+2021-07-18 22:00:31,824 text_processor.py: INFO: processed emb graphic
+2021-07-18 22:00:31,824 text_processor.py: INFO: processed emb speaker
+2021-07-18 22:00:32,567 sysnthesize_server.py: INFO: processing test|sil jin1 sil|sil 金 sil|0
+2021-07-18 22:00:35,268 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-19 09:56:24,591 sysnthesize_server.py: INFO: 
+2021-07-19 09:56:24,622 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 09:56:24,777 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 09:56:24,797 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 09:56:24,940 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 10:00:02,111 sysnthesize_server.py: INFO: 
+2021-07-19 10:00:02,124 text_processor.py: INFO: processed emb pinyin
+2021-07-19 10:00:02,125 text_processor.py: INFO: processed emb graphic
+2021-07-19 10:00:02,125 text_processor.py: INFO: processed emb speaker
+2021-07-19 10:00:02,996 sysnthesize_server.py: INFO: processing test|sil ce4 suo3 zai4 gai1 jian4 zhu4 wu4 de5 dong1 bei2 jiao3 sil|sil 厕 所 在 该 建 筑 物 的 东 北 角 sil|0
+2021-07-19 10:00:07,130 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-19 10:00:21,236 sysnthesize_server.py: INFO: 
+2021-07-19 10:00:21,236 text_processor.py: INFO: processed emb pinyin
+2021-07-19 10:00:21,237 text_processor.py: INFO: processed emb graphic
+2021-07-19 10:00:21,237 text_processor.py: INFO: processed emb speaker
+2021-07-19 10:00:21,241 sysnthesize_server.py: INFO: processing test|sil ce4 suo3 zai4 gai1 jian4 zhu4 wu4 de5 dong1 bei2 jiao3 sil|sil 厕 所 在 该 建 筑 物 的 东 北 角 sil|0
+2021-07-19 10:00:21,831 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-19 10:01:22,532 sysnthesize_server.py: INFO: 
+2021-07-19 10:01:22,533 text_processor.py: INFO: processed emb pinyin
+2021-07-19 10:01:22,534 text_processor.py: INFO: processed emb graphic
+2021-07-19 10:01:22,534 text_processor.py: INFO: processed emb speaker
+2021-07-19 10:01:22,537 sysnthesize_server.py: INFO: processing test|sil rang4 wo3 dai4 ni3 qu4 ba5 sil|sil 让 我 带 你 去 吧 sil|0
+2021-07-19 10:01:23,180 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-19 10:01:57,221 sysnthesize_server.py: INFO: 
+2021-07-19 10:01:57,221 text_processor.py: INFO: processed emb pinyin
+2021-07-19 10:01:57,222 text_processor.py: INFO: processed emb graphic
+2021-07-19 10:01:57,223 text_processor.py: INFO: processed emb speaker
+2021-07-19 10:01:57,226 sysnthesize_server.py: INFO: processing test|sil ban4 gong1 shi4 zai4 er4 lou2 sil|sil 办 公 室 在 二 楼 sil|0
+2021-07-19 10:01:57,853 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-19 10:02:34,246 sysnthesize_server.py: INFO: 
+2021-07-19 10:02:34,246 text_processor.py: INFO: processed emb pinyin
+2021-07-19 10:02:34,247 text_processor.py: INFO: processed emb graphic
+2021-07-19 10:02:34,247 text_processor.py: INFO: processed emb speaker
+2021-07-19 10:02:34,251 sysnthesize_server.py: INFO: processing test|sil chu1 dian4 ti1 hou4 you4 guai3 jiu4 neng2 jian4 dao4 le5 sil|sil 出 电 梯 后 右 拐 就 能 见 到 了 sil|0
+2021-07-19 10:02:34,832 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-19 10:11:44,476 sysnthesize_server.py: INFO: 
+2021-07-19 10:11:44,476 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 10:11:44,499 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 10:11:44,506 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 10:11:44,580 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 10:12:05,910 sysnthesize_server.py: INFO: 
+2021-07-19 10:12:05,910 text_processor.py: INFO: processed emb pinyin
+2021-07-19 10:12:05,911 text_processor.py: INFO: processed emb graphic
+2021-07-19 10:12:05,912 text_processor.py: INFO: processed emb speaker
+2021-07-19 10:12:06,631 sysnthesize_server.py: INFO: processing test|sil chu1 dian4 ti1 hou4 you4 guai3 jiu4 neng2 jian4 dao4 le5 sil|sil 出 电 梯 后 右 拐 就 能 见 到 了 sil|0
+2021-07-19 10:12:07,526 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-19 10:13:29,486 sysnthesize_server.py: INFO: 
+2021-07-19 10:13:29,487 text_processor.py: INFO: processed emb pinyin
+2021-07-19 10:13:29,488 text_processor.py: INFO: processed emb graphic
+2021-07-19 10:13:29,488 text_processor.py: INFO: processed emb speaker
+2021-07-19 10:13:29,492 sysnthesize_server.py: INFO: processing test|sil chu1 dian4 ti1 hou4 you4 guai3 jiu4 neng2 jian4 dao4 le5 sil|sil 出 电 梯 后 右 拐 就 能 见 到 了 sil|0
+2021-07-19 10:13:30,085 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-19 10:13:46,977 sysnthesize_server.py: INFO: 
+2021-07-19 10:13:46,977 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 10:13:46,981 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 10:13:46,988 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 10:13:47,063 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 10:13:53,105 sysnthesize_server.py: INFO: 
+2021-07-19 10:13:53,105 text_processor.py: INFO: processed emb pinyin
+2021-07-19 10:13:53,106 text_processor.py: INFO: processed emb graphic
+2021-07-19 10:13:53,106 text_processor.py: INFO: processed emb speaker
+2021-07-19 10:13:53,785 sysnthesize_server.py: INFO: processing test|sil chu1 dian4 ti1 hou4 you4 guai3 jiu4 neng2 jian4 dao4 le5 sil|sil 出 电 梯 后 右 拐 就 能 见 到 了 sil|0
+2021-07-19 10:13:54,434 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-19 10:14:24,407 sysnthesize_server.py: INFO: 
+2021-07-19 10:14:24,408 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 10:14:24,411 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 10:14:24,418 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 10:14:24,504 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 10:14:31,061 sysnthesize_server.py: INFO: 
+2021-07-19 10:14:31,062 text_processor.py: INFO: processed emb pinyin
+2021-07-19 10:14:31,063 text_processor.py: INFO: processed emb graphic
+2021-07-19 10:14:31,063 text_processor.py: INFO: processed emb speaker
+2021-07-19 10:14:31,740 sysnthesize_server.py: INFO: processing test|sil chu1 dian4 ti1 hou4 you4 guai3 jiu4 neng2 jian4 dao4 le5 sil|sil 出 电 梯 后 右 拐 就 能 见 到 了 sil|0
+2021-07-19 10:14:32,372 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-19 10:16:08,413 sysnthesize_server.py: INFO: 
+2021-07-19 10:16:08,413 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 10:16:08,417 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 10:16:08,424 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 10:16:08,497 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 10:16:13,665 sysnthesize_server.py: INFO: 
+2021-07-19 10:16:13,666 text_processor.py: INFO: processed emb pinyin
+2021-07-19 10:16:13,667 text_processor.py: INFO: processed emb graphic
+2021-07-19 10:16:13,667 text_processor.py: INFO: processed emb speaker
+2021-07-19 10:16:14,347 sysnthesize_server.py: INFO: processing test|sil chu1 dian4 ti1 hou4 you4 guai3 jiu4 neng2 jian4 dao4 le5 sil|sil 出 电 梯 后 右 拐 就 能 见 到 了 sil|0
+2021-07-19 10:16:14,963 sysnthesize_server.py: INFO: writing file to ./outputs/test.wav
+2021-07-19 10:18:22,364 sysnthesize_server.py: INFO: 
+2021-07-19 10:18:22,364 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 10:18:22,368 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 10:18:22,376 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 10:18:22,455 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 10:18:27,783 sysnthesize_server.py: INFO: 
+2021-07-19 10:18:27,783 text_processor.py: INFO: processed emb pinyin
+2021-07-19 10:18:27,784 text_processor.py: INFO: processed emb graphic
+2021-07-19 10:18:27,784 text_processor.py: INFO: processed emb speaker
+2021-07-19 10:18:28,461 sysnthesize_server.py: INFO: processing test|sil chu1 dian4 ti1 hou4 you4 guai3 jiu4 neng2 jian4 dao4 le5 sil|sil 出 电 梯 后 右 拐 就 能 见 到 了 sil|0
+2021-07-19 10:18:29,056 sysnthesize_server.py: INFO: writing file to ./outputs/777.wav
+2021-07-19 10:21:20,985 sysnthesize_server.py: INFO: 
+2021-07-19 10:21:21,024 text_processor.py: INFO: processed emb pinyin
+2021-07-19 10:21:21,030 text_processor.py: INFO: processed emb graphic
+2021-07-19 10:21:21,030 text_processor.py: INFO: processed emb speaker
+2021-07-19 10:21:21,053 sysnthesize_server.py: INFO: processing test|sil xiao3 bao2 xiao2 bao3 sil|sil 小 宝 小 宝 sil|0
+2021-07-19 10:21:21,703 sysnthesize_server.py: INFO: writing file to ./outputs/777.wav
+2021-07-19 10:21:37,907 sysnthesize_server.py: INFO: 
+2021-07-19 10:21:37,908 text_processor.py: INFO: processed emb pinyin
+2021-07-19 10:21:37,909 text_processor.py: INFO: processed emb graphic
+2021-07-19 10:21:37,909 text_processor.py: INFO: processed emb speaker
+2021-07-19 10:21:37,912 sysnthesize_server.py: INFO: processing test|sil xiao3 bao2 xiao3 bao2 xiao3 bao2 xiao2 bao3 sil|sil 小 宝 小 宝 小 宝 小 宝 sil|0
+2021-07-19 10:21:38,508 sysnthesize_server.py: INFO: writing file to ./outputs/777.wav
+2021-07-19 13:25:39,111 sysnthesize_server.py: INFO: 
+2021-07-19 13:25:39,132 text_processor.py: INFO: processed emb pinyin
+2021-07-19 13:25:39,134 text_processor.py: INFO: processed emb graphic
+2021-07-19 13:25:39,134 text_processor.py: INFO: processed emb speaker
+2021-07-19 13:25:39,143 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-19 13:25:39,831 sysnthesize_server.py: INFO: writing file to ./outputs/777.wav
+2021-07-19 13:26:38,538 sysnthesize_server.py: INFO: 
+2021-07-19 13:26:38,538 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 13:26:38,559 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 13:26:38,566 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 13:26:38,640 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 13:26:47,451 sysnthesize_server.py: INFO: 
+2021-07-19 13:26:47,451 text_processor.py: INFO: processed emb pinyin
+2021-07-19 13:26:47,452 text_processor.py: INFO: processed emb graphic
+2021-07-19 13:26:47,453 text_processor.py: INFO: processed emb speaker
+2021-07-19 13:26:48,153 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-19 13:26:48,778 sysnthesize_server.py: INFO: writing file to ./outputs/777.wav
+2021-07-19 13:27:29,844 sysnthesize_server.py: INFO: 
+2021-07-19 13:27:29,844 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 13:27:29,848 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 13:27:29,855 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 13:27:29,932 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 13:27:50,099 sysnthesize_server.py: INFO: 
+2021-07-19 13:27:50,099 text_processor.py: INFO: processed emb pinyin
+2021-07-19 13:27:50,100 text_processor.py: INFO: processed emb graphic
+2021-07-19 13:27:50,100 text_processor.py: INFO: processed emb speaker
+2021-07-19 13:27:50,771 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-19 13:27:51,374 sysnthesize_server.py: INFO: writing file to ./outputs/777.wav
+2021-07-19 13:32:52,376 sysnthesize_server.py: INFO: 
+2021-07-19 13:32:52,376 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 13:32:52,380 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 13:32:52,387 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 13:32:52,466 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 13:32:57,850 sysnthesize_server.py: INFO: 
+2021-07-19 13:32:57,851 text_processor.py: INFO: processed emb pinyin
+2021-07-19 13:32:57,852 text_processor.py: INFO: processed emb graphic
+2021-07-19 13:32:57,852 text_processor.py: INFO: processed emb speaker
+2021-07-19 13:32:58,521 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-19 13:32:59,336 sysnthesize_server.py: INFO: writing file to ./outputs/777.wav
+2021-07-19 13:42:44,551 sysnthesize_server.py: INFO: 
+2021-07-19 13:42:44,551 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 13:42:44,555 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 13:42:44,563 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 13:42:44,639 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 13:42:54,684 sysnthesize_server.py: INFO: 
+2021-07-19 13:42:54,685 text_processor.py: INFO: processed emb pinyin
+2021-07-19 13:42:54,686 text_processor.py: INFO: processed emb graphic
+2021-07-19 13:42:54,686 text_processor.py: INFO: processed emb speaker
+2021-07-19 13:42:55,375 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-19 13:42:56,048 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 13:42:56,049 sysnthesize_server.py: INFO: processing test|sil ming2 tian1 yi1 zao2 wo3 cai1 yang2 guang1 hui4 hao3 sil|sil 明 天 一 早 我 猜 阳 光 会 好 sil|0
+2021-07-19 13:42:56,651 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-19 13:48:38,769 sysnthesize_server.py: INFO: 
+2021-07-19 13:48:38,769 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 13:48:38,773 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 13:48:38,780 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 13:48:38,862 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 13:48:47,892 sysnthesize_server.py: INFO: 
+2021-07-19 13:48:47,893 text_processor.py: INFO: processed emb pinyin
+2021-07-19 13:48:47,894 text_processor.py: INFO: processed emb graphic
+2021-07-19 13:48:47,894 text_processor.py: INFO: processed emb speaker
+2021-07-19 13:48:48,439 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-19 13:48:49,089 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 13:48:49,090 sysnthesize_server.py: INFO: processing test|sil ming2 tian1 yi1 zao2 wo3 cai1 yang2 guang1 hui4 hao3 sil|sil 明 天 一 早 我 猜 阳 光 会 好 sil|0
+2021-07-19 13:48:49,768 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-19 13:51:14,647 sysnthesize_server.py: INFO: 
+2021-07-19 13:51:14,648 text_processor.py: INFO: processed emb pinyin
+2021-07-19 13:51:14,650 text_processor.py: INFO: processed emb graphic
+2021-07-19 13:51:14,650 text_processor.py: INFO: processed emb speaker
+2021-07-19 13:51:14,657 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-19 13:51:15,411 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 13:51:15,411 sysnthesize_server.py: INFO: processing test|sil ming2 tian1 yi1 zao2 wo3 cai1 yang2 guang1 hui4 hao3 sil|sil 明 天 一 早 我 猜 阳 光 会 好 sil|0
+2021-07-19 13:51:16,205 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-19 13:51:16,206 sysnthesize_server.py: INFO: processing test|sil wo2 xiang3 chu1 qu4 wan2 shua3 sil|sil 我 想 出 去 玩 耍 sil|0
+2021-07-19 13:51:16,977 sysnthesize_server.py: INFO: writing file to ./outputs/3.wav
+2021-07-19 13:51:28,880 sysnthesize_server.py: INFO: 
+2021-07-19 13:51:28,881 text_processor.py: INFO: processed emb pinyin
+2021-07-19 13:51:28,882 text_processor.py: INFO: processed emb graphic
+2021-07-19 13:51:28,882 text_processor.py: INFO: processed emb speaker
+2021-07-19 13:51:28,886 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-19 13:51:29,635 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 13:51:29,635 sysnthesize_server.py: INFO: processing test|sil ming2 tian1 yi1 zao2 wo3 cai1 yang2 guang1 hui4 hao3 sil|sil 明 天 一 早 我 猜 阳 光 会 好 sil|0
+2021-07-19 13:51:30,492 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-19 13:51:30,561 sysnthesize_server.py: INFO: processing test|sil wo2 xiang3 chu1 qu4 wan2 shua3 sil|sil 我 想 出 去 玩 耍 sil|0
+2021-07-19 13:51:31,408 sysnthesize_server.py: INFO: writing file to ./outputs/3.wav
+2021-07-19 13:55:43,395 sysnthesize_server.py: INFO: 
+2021-07-19 13:55:43,396 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 13:55:43,399 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 13:55:43,410 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 13:55:43,496 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 13:55:50,046 sysnthesize_server.py: INFO: 
+2021-07-19 13:55:50,046 text_processor.py: INFO: processed emb pinyin
+2021-07-19 13:55:50,047 text_processor.py: INFO: processed emb graphic
+2021-07-19 13:55:50,047 text_processor.py: INFO: processed emb speaker
+2021-07-19 13:55:50,603 sysnthesize_server.py: INFO: processing test|sil jin1 tian1 tian1 qi4 zen3 me5 yang4 sil|sil 今 天 天 气 怎 么 样 sil|0
+2021-07-19 13:55:51,349 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 13:55:51,349 sysnthesize_server.py: INFO: processing test|sil ming2 tian1 yi1 zao2 wo3 cai1 yang2 guang1 hui4 hao3 sil|sil 明 天 一 早 我 猜 阳 光 会 好 sil|0
+2021-07-19 13:55:52,058 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-19 13:57:26,399 sysnthesize_server.py: INFO: 
+2021-07-19 13:57:26,399 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 13:57:26,403 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 13:57:26,411 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 13:57:26,490 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 13:58:40,385 sysnthesize_server.py: INFO: 
+2021-07-19 13:58:40,386 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 13:58:40,389 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 13:58:40,396 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 13:58:40,471 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 13:58:57,939 sysnthesize_server.py: INFO: 
+2021-07-19 13:58:57,939 text_processor.py: INFO: processed emb pinyin
+2021-07-19 13:58:57,941 text_processor.py: INFO: processed emb graphic
+2021-07-19 13:58:57,941 text_processor.py: INFO: processed emb speaker
+2021-07-19 13:58:58,480 sysnthesize_server.py: INFO: processing test|sil ni2 hao3 sil|sil 你 好 sil|0
+2021-07-19 13:58:59,187 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 13:59:02,291 sysnthesize_server.py: INFO: 
+2021-07-19 13:59:02,292 text_processor.py: INFO: processed emb pinyin
+2021-07-19 13:59:02,292 text_processor.py: INFO: processed emb graphic
+2021-07-19 13:59:02,292 text_processor.py: INFO: processed emb speaker
+2021-07-19 13:59:02,295 sysnthesize_server.py: INFO: processing test|sil ni2 hao3 sil|sil 你 好 sil|0
+2021-07-19 13:59:03,015 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 13:59:04,883 sysnthesize_server.py: INFO: 
+2021-07-19 13:59:04,884 text_processor.py: INFO: processed emb pinyin
+2021-07-19 13:59:04,885 text_processor.py: INFO: processed emb graphic
+2021-07-19 13:59:04,885 text_processor.py: INFO: processed emb speaker
+2021-07-19 13:59:04,889 sysnthesize_server.py: INFO: processing test|sil ni2 hao3 sil|sil 你 好 sil|0
+2021-07-19 13:59:05,482 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 13:59:58,470 sysnthesize_server.py: INFO: 
+2021-07-19 13:59:58,470 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 13:59:58,474 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 13:59:58,481 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 13:59:58,556 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 14:00:04,833 sysnthesize_server.py: INFO: 
+2021-07-19 14:00:04,833 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:00:04,834 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:00:04,834 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:00:05,378 sysnthesize_server.py: INFO: processing test|sil ni2 hao3 sil|sil 你 好 sil|0
+2021-07-19 14:00:05,945 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:01:47,427 sysnthesize_server.py: INFO: 
+2021-07-19 14:01:47,427 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 14:01:47,431 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 14:01:47,438 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 14:01:47,512 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 14:03:52,275 sysnthesize_server.py: INFO: 
+2021-07-19 14:03:52,289 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 14:03:52,315 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 14:03:52,322 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 14:03:52,398 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 14:03:59,678 sysnthesize_server.py: INFO: 
+2021-07-19 14:03:59,679 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:03:59,680 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:03:59,680 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:04:00,240 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:04:00,895 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:04:42,518 sysnthesize_server.py: INFO: 
+2021-07-19 14:04:42,518 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 14:04:42,521 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 14:04:42,528 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 14:04:42,603 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 14:04:49,289 sysnthesize_server.py: INFO: 
+2021-07-19 14:04:49,290 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:04:49,291 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:04:49,291 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:04:49,828 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:04:50,393 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:04:50,393 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:04:50,956 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-19 14:05:09,642 sysnthesize_server.py: INFO: 
+2021-07-19 14:05:09,643 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:05:09,644 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:05:09,644 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:05:09,648 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:05:10,337 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:05:10,337 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:05:10,986 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-19 14:05:36,179 sysnthesize_server.py: INFO: 
+2021-07-19 14:05:36,180 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:05:36,181 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:05:36,181 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:05:36,185 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:05:36,723 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:05:36,724 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:05:37,317 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-19 14:06:34,894 sysnthesize_server.py: INFO: 
+2021-07-19 14:06:34,894 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 14:06:34,898 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 14:06:34,905 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 14:06:34,979 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 14:06:40,696 sysnthesize_server.py: INFO: 
+2021-07-19 14:06:40,697 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:06:40,698 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:06:40,698 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:06:41,240 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:06:41,797 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:06:41,797 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:06:42,360 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-19 14:08:40,549 sysnthesize_server.py: INFO: 
+2021-07-19 14:08:40,549 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 14:08:40,552 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 14:08:40,560 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 14:08:40,633 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 14:08:48,608 sysnthesize_server.py: INFO: 
+2021-07-19 14:08:48,609 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:08:48,610 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:08:48,610 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:08:49,147 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:08:49,676 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:08:49,677 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:08:50,332 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-19 14:09:20,481 sysnthesize_server.py: INFO: 
+2021-07-19 14:09:20,482 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 14:09:20,486 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 14:09:20,494 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 14:09:20,581 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 14:09:25,302 sysnthesize_server.py: INFO: 
+2021-07-19 14:09:25,303 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:09:25,304 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:09:25,304 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:09:25,836 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:09:26,398 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:09:26,399 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:09:26,958 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-19 14:09:35,243 sysnthesize_server.py: INFO: 
+2021-07-19 14:09:35,244 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:09:35,245 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:09:35,245 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:09:35,249 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:09:35,833 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:09:35,834 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:09:36,443 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-19 14:09:41,919 sysnthesize_server.py: INFO: 
+2021-07-19 14:09:41,920 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:09:41,921 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:09:41,921 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:09:41,924 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:09:42,513 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:10:21,259 sysnthesize_server.py: INFO: 
+2021-07-19 14:10:21,259 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 14:10:21,263 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 14:10:21,270 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 14:10:21,344 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 14:10:38,838 sysnthesize_server.py: INFO: 
+2021-07-19 14:10:38,839 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:10:38,840 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:10:38,840 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:10:39,385 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:10:39,980 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:11:22,624 sysnthesize_server.py: INFO: 
+2021-07-19 14:11:22,624 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 14:11:22,628 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 14:11:22,635 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 14:11:22,708 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 14:11:31,723 sysnthesize_server.py: INFO: 
+2021-07-19 14:11:31,724 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:11:31,725 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:11:31,725 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:11:32,262 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:11:32,852 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:11:32,852 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:11:33,482 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-19 14:12:27,459 sysnthesize_server.py: INFO: 
+2021-07-19 14:12:27,460 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 14:12:27,463 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 14:12:27,471 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 14:12:27,547 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 14:12:34,813 sysnthesize_server.py: INFO: 
+2021-07-19 14:12:34,814 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:12:34,815 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:12:34,815 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:12:35,345 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:12:35,921 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:13:41,539 sysnthesize_server.py: INFO: 
+2021-07-19 14:13:41,540 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 14:13:41,543 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 14:13:41,550 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 14:13:41,624 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 14:13:46,656 sysnthesize_server.py: INFO: 
+2021-07-19 14:13:46,657 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:13:46,658 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:13:46,658 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:13:47,195 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:13:47,754 sysnthesize_server.py: INFO: writing file to ./outputs/0.wav
+2021-07-19 14:14:00,198 sysnthesize_server.py: INFO: 
+2021-07-19 14:14:00,198 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 14:14:00,203 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 14:14:00,210 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 14:14:00,291 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 14:14:11,730 sysnthesize_server.py: INFO: 
+2021-07-19 14:14:11,731 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:14:11,732 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:14:11,732 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:14:12,272 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:14:12,843 sysnthesize_server.py: INFO: writing file to ./outputs/0.wav
+2021-07-19 14:14:12,844 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:14:13,426 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:19:26,090 sysnthesize_server.py: INFO: 
+2021-07-19 14:19:26,090 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 14:19:26,094 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 14:19:26,101 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 14:19:26,179 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 14:19:33,720 sysnthesize_server.py: INFO: 
+2021-07-19 14:19:33,720 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:19:33,721 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:19:33,721 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:19:34,263 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:19:34,844 sysnthesize_server.py: INFO: writing file to ./outputs/0.wav
+2021-07-19 14:19:34,844 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:19:35,454 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:21:29,154 sysnthesize_server.py: INFO: 
+2021-07-19 14:21:29,154 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 14:21:29,158 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 14:21:29,170 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 14:21:29,285 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 14:21:35,287 sysnthesize_server.py: INFO: 
+2021-07-19 14:21:35,288 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:21:35,289 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:21:35,289 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:21:35,829 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:21:36,381 sysnthesize_server.py: INFO: writing file to ./outputs/0.wav
+2021-07-19 14:21:36,381 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:21:36,962 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:22:11,445 sysnthesize_server.py: INFO: 
+2021-07-19 14:22:11,445 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 14:22:11,449 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 14:22:11,457 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 14:22:11,533 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 14:22:16,703 sysnthesize_server.py: INFO: 
+2021-07-19 14:22:16,704 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:22:16,705 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:22:16,705 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:22:17,246 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:22:17,840 sysnthesize_server.py: INFO: writing file to ./outputs/0.wav
+2021-07-19 14:22:17,841 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:22:18,434 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:24:45,727 sysnthesize_server.py: INFO: 
+2021-07-19 14:24:45,727 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 14:24:45,732 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 14:24:45,739 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 14:24:45,821 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 14:24:52,300 sysnthesize_server.py: INFO: 
+2021-07-19 14:24:52,301 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:24:52,302 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:24:52,302 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:24:52,842 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:24:53,387 sysnthesize_server.py: INFO: writing file to ./outputs/0.wav
+2021-07-19 14:24:53,387 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:24:53,980 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:26:10,947 sysnthesize_server.py: INFO: 
+2021-07-19 14:26:10,947 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 14:26:10,951 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 14:26:10,958 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 14:26:11,031 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 14:26:18,311 sysnthesize_server.py: INFO: 
+2021-07-19 14:26:18,312 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:26:18,313 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:26:18,313 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:26:19,189 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:26:19,795 sysnthesize_server.py: INFO: writing file to ./outputs/0.wav
+2021-07-19 14:26:19,795 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:26:20,376 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:27:07,906 sysnthesize_server.py: INFO: 
+2021-07-19 14:27:07,906 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 14:27:07,911 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 14:27:07,922 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 14:27:07,996 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 14:27:13,666 sysnthesize_server.py: INFO: 
+2021-07-19 14:27:13,666 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:27:13,667 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:27:13,667 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:27:14,216 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:27:14,792 sysnthesize_server.py: INFO: writing file to ./outputs/0.wav
+2021-07-19 14:27:14,792 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:27:15,392 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:27:47,342 sysnthesize_server.py: INFO: 
+2021-07-19 14:27:47,343 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 14:27:47,346 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 14:27:47,353 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 14:27:47,428 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 14:27:53,247 sysnthesize_server.py: INFO: 
+2021-07-19 14:27:53,248 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:27:53,249 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:27:53,249 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:27:53,789 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:27:54,358 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:27:54,358 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:27:54,936 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-19 14:28:02,985 sysnthesize_server.py: INFO: 
+2021-07-19 14:28:02,985 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:28:02,986 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:28:02,986 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:28:02,990 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:28:03,557 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:28:10,864 sysnthesize_server.py: INFO: 
+2021-07-19 14:28:10,864 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:28:10,865 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:28:10,865 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:28:10,869 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:28:11,449 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:28:18,767 sysnthesize_server.py: INFO: 
+2021-07-19 14:28:18,768 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:28:18,769 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:28:18,769 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:28:18,772 sysnthesize_server.py: INFO: processing test|sil zhe4 li3 shi4 na2 li3 sil|sil 这 里 是 哪 里 sil|0
+2021-07-19 14:28:19,357 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:29:09,009 sysnthesize_server.py: INFO: 
+2021-07-19 14:29:09,009 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:29:09,010 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:29:09,010 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:29:09,014 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:29:09,565 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:29:09,565 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:29:10,381 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-19 14:29:15,442 sysnthesize_server.py: INFO: 
+2021-07-19 14:29:15,442 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 14:29:15,446 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 14:29:15,453 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 14:29:15,527 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 14:29:20,883 sysnthesize_server.py: INFO: 
+2021-07-19 14:29:20,883 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:29:20,885 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:29:20,885 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:29:21,427 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:29:21,990 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:29:21,990 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:29:22,616 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-19 14:30:46,331 sysnthesize_server.py: INFO: 
+2021-07-19 14:30:46,331 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 14:30:46,334 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 14:30:46,341 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 14:30:46,422 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 14:31:27,759 sysnthesize_server.py: INFO: 
+2021-07-19 14:31:27,760 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:31:27,761 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:31:27,761 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:31:28,296 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:31:28,839 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:31:28,839 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:31:29,393 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-19 14:31:35,011 sysnthesize_server.py: INFO: 
+2021-07-19 14:31:35,012 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:31:35,013 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:31:35,013 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:31:35,018 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:31:35,565 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:31:35,565 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:31:36,134 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-19 14:31:41,851 sysnthesize_server.py: INFO: 
+2021-07-19 14:31:41,852 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:31:41,852 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:31:41,853 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:31:41,856 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:31:42,409 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:31:49,111 sysnthesize_server.py: INFO: 
+2021-07-19 14:31:49,111 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:31:49,112 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:31:49,112 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:31:49,115 sysnthesize_server.py: INFO: processing test|sil wo3 shi4 sha3 zi5 sil|sil 我 是 傻 子 sil|0
+2021-07-19 14:31:49,646 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:32:17,308 sysnthesize_server.py: INFO: 
+2021-07-19 14:32:17,309 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-19 14:32:17,312 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-19 14:32:17,319 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-19 14:32:17,392 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-19 14:41:48,136 sysnthesize_server.py: INFO: 
+2021-07-19 14:41:48,137 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:41:48,138 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:41:48,138 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:41:48,665 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:41:49,215 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:41:49,215 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:41:49,737 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-19 14:42:02,792 sysnthesize_server.py: INFO: 
+2021-07-19 14:42:02,792 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:42:02,793 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:42:02,793 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:42:02,797 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:42:03,341 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:42:03,341 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:42:03,886 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-19 14:42:19,425 sysnthesize_server.py: INFO: 
+2021-07-19 14:42:19,425 text_processor.py: INFO: processed emb pinyin
+2021-07-19 14:42:19,426 text_processor.py: INFO: processed emb graphic
+2021-07-19 14:42:19,426 text_processor.py: INFO: processed emb speaker
+2021-07-19 14:42:19,430 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 14:42:19,960 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 14:42:19,960 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 14:42:20,499 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-19 15:07:44,373 sysnthesize_server.py: INFO: 
+2021-07-19 15:07:44,418 text_processor.py: INFO: processed emb pinyin
+2021-07-19 15:07:44,425 text_processor.py: INFO: processed emb graphic
+2021-07-19 15:07:44,425 text_processor.py: INFO: processed emb speaker
+2021-07-19 15:07:44,458 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-19 15:07:48,850 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-19 15:07:48,850 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-19 15:07:49,357 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-20 19:21:21,228 sysnthesize_server.py: INFO: 
+2021-07-20 19:21:21,267 text_processor.py: INFO: processed emb pinyin
+2021-07-20 19:21:21,273 text_processor.py: INFO: processed emb graphic
+2021-07-20 19:21:21,273 text_processor.py: INFO: processed emb speaker
+2021-07-20 19:21:21,283 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-20 19:21:21,840 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-20 19:21:21,840 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-20 19:21:22,409 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-20 19:36:10,412 sysnthesize_server.py: INFO: 
+2021-07-20 19:36:10,413 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './py.vocab', 'dim': 256, 'weight': 1.0, 'max_seq_len': 100}
+2021-07-20 19:36:10,568 fs2_model.py: INFO: building embedding with config: {'enable': True, 'type': 'embedding', 'vocab': './gp.vocab', 'dim': 256, 'weight': 0.5, 'max_seq_len': 100}
+2021-07-20 19:36:10,600 fs2_model.py: INFO: building embedding with config: {'enable': True, 'vocab': None, 'vocab_size': 1, 'weight': 1.0, 'dim': 256}
+2021-07-20 19:36:10,711 decoder.py: INFO: decoder_type FS2TransformerDecoder
+2021-07-20 19:37:02,140 sysnthesize_server.py: INFO: 
+2021-07-20 19:37:02,140 text_processor.py: INFO: processed emb pinyin
+2021-07-20 19:37:02,142 text_processor.py: INFO: processed emb graphic
+2021-07-20 19:37:02,142 text_processor.py: INFO: processed emb speaker
+2021-07-20 19:37:02,732 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-20 19:37:03,769 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-20 19:37:03,769 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-20 19:37:04,432 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-20 20:02:49,531 sysnthesize_server.py: INFO: 
+2021-07-20 20:02:49,531 text_processor.py: INFO: processed emb pinyin
+2021-07-20 20:02:49,532 text_processor.py: INFO: processed emb graphic
+2021-07-20 20:02:49,533 text_processor.py: INFO: processed emb speaker
+2021-07-20 20:02:49,538 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-20 20:02:50,145 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-20 20:02:50,145 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-20 20:02:50,700 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
+2021-07-20 21:41:02,965 sysnthesize_server.py: INFO: 
+2021-07-20 21:41:02,966 text_processor.py: INFO: processed emb pinyin
+2021-07-20 21:41:02,967 text_processor.py: INFO: processed emb graphic
+2021-07-20 21:41:02,967 text_processor.py: INFO: processed emb speaker
+2021-07-20 21:41:02,971 sysnthesize_server.py: INFO: processing test|sil wo3 kan4 jian4 dao4 chu4 shi4 yang2 guang1 sil|sil 我 看 见 到 处 是 阳 光 sil|0
+2021-07-20 21:41:03,525 sysnthesize_server.py: INFO: writing file to ./outputs/1.wav
+2021-07-20 21:41:03,525 sysnthesize_server.py: INFO: processing test|sil kuai4 le4 zai4 cheng2 shi4 bian1 yuan2 piao1 yang2 sil|sil 快 乐 在 城 市 边 缘 飘 扬 sil|0
+2021-07-20 21:41:04,111 sysnthesize_server.py: INFO: writing file to ./outputs/2.wav
